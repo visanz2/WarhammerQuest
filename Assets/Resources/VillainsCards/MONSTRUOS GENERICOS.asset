@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53007c00e75846759ea84a12ca07fa10, type: 3}
+  m_Name: MONSTRUOS GENERICOS
+  m_EditorClassIdentifier: 
+  ImageDatas:
+  - {fileID: 21300000, guid: 96457367e4c8b6b4ca55f0453db14758, type: 3}
+  - {fileID: 21300000, guid: 49cfa5bea03f73940a300a5ffc212ebe, type: 3}
+  - {fileID: 21300000, guid: cb3818adff740a942978e9975c6e72d2, type: 3}
+  - {fileID: 21300000, guid: 94b0fde63d9d146459705fab22d1a7f0, type: 3}
+  - {fileID: 21300000, guid: d710ac604fc0a504f9725b6d52eae0f3, type: 3}
+  - {fileID: 21300000, guid: d9838557118ca824f972376aa51120dc, type: 3}
+  - {fileID: 21300000, guid: d985268ae2d78f647834fad1c2ff2f92, type: 3}
+  - {fileID: 21300000, guid: d65c032ba8e5ba24cb25a69f9f102d46, type: 3}
+  - {fileID: 21300000, guid: 1a72cfa2254784e47a6dd078f4904078, type: 3}
+  - {fileID: 21300000, guid: 3d9f48a9bc6d99342a9a53b7af91c06c, type: 3}

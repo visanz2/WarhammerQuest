@@ -1,0 +1,12 @@
+Evento;CityDestroy
+C-08;Khemri;
+C-09;La Torre de la Estrella;
+C-14;Lamhia;
+D-00;Torre Sangrienta;
+D-01;Nagashizzar;
+D-02;El Martillo Del Emperador;
+D-03;Fuerte Schippel;
+D-04;Fuerte Jatova;
+D-05;Fuerte Denkh;
+D-06;Bohsenfels;
+D-07;Mazhorod;

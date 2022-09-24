@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'es' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/tipex/Desktop/Pabloquest
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+56587
+Successfully changed project path to: C:/Users/tipex/Desktop/Pabloquest
+C:/Users/tipex/Desktop/Pabloquest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tipex/Desktop/Pabloquest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009418 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.532 seconds
+Domain Reload Profiling:
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (385ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003478 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\Pabloquest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\Pabloquest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (68.4 KB). Loaded Objects now: 4731.
+Memory consumption went from 154.9 MB to 154.8 MB.
+Total: 3.076900 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.633500 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3346423.463309 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/AS-2.png
+  artifactKey: Guid(19ca0c624aee1eb49bdd3d832b72b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/AS-2.png using Guid(19ca0c624aee1eb49bdd3d832b72b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d3d08fe8f0abbdfa4b190f102bc8a0') in 0.074284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/EL.png
+  artifactKey: Guid(3aae98e1e9e5d5d43af9161dd2de0899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/EL.png using Guid(3aae98e1e9e5d5d43af9161dd2de0899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636f1a3338858673686b8a6f80d9a8eb') in 0.013042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/ENA.png
+  artifactKey: Guid(376c0e9220d0f7943a05e68869f0b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/ENA.png using Guid(376c0e9220d0f7943a05e68869f0b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd2c3e3a52c89ea01f2d7c5217b4d2d') in 0.011890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/MA.png
+  artifactKey: Guid(ae49d76e76c37114892e422c82d9f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/MA.png using Guid(ae49d76e76c37114892e422c82d9f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb7a987d7d821e1f259e8567b765f99') in 0.010799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/NO-1.png
+  artifactKey: Guid(69be46b3097d8ed47b825be6167757b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/NO-1.png using Guid(69be46b3097d8ed47b825be6167757b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bfbf0f593ab44c51d9f2075977500d') in 0.010566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/BB.png
+  artifactKey: Guid(f1c24964b21948a42b50adb118e54bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/BB.png using Guid(f1c24964b21948a42b50adb118e54bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c895b0cbde02bc9d118f66707252de14') in 0.010413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/CR.png
+  artifactKey: Guid(fb4440560917ba940a93e30964b92a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/CR.png using Guid(fb4440560917ba940a93e30964b92a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e4ad47c780567b023fd89e5164ffb4') in 0.010875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/EN.png
+  artifactKey: Guid(6d294f07f4efdb743a2a732ce6984b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/EN.png using Guid(6d294f07f4efdb743a2a732ce6984b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192e35e3e4ff5f50b0ee1d82f23cc91') in 0.011694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/BA.png
+  artifactKey: Guid(ff964ea980b834c45809e07bae62b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/BA.png using Guid(ff964ea980b834c45809e07bae62b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74822e1b344d8843bb11cbc0e1dbb841') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/SG.png
+  artifactKey: Guid(ce27977116592b34c983743a1f812615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/SG.png using Guid(ce27977116592b34c983743a1f812615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53affe71a1b9fa938546aa1f9fc65910') in 0.009780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/LM.png
+  artifactKey: Guid(99a4eb5088e7d0e4288f6c3189035929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/LM.png using Guid(99a4eb5088e7d0e4288f6c3189035929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d497b9841a071f140ec61f65433fa5') in 0.011819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/EA.png
+  artifactKey: Guid(0e4a716f31af3564a8906e71ecf470eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/EA.png using Guid(0e4a716f31af3564a8906e71ecf470eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c0b5aee29ff4c2583d8471a1225e0') in 0.008599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/MC.png
+  artifactKey: Guid(229c8e076a63bb94dbbf9f22c64cae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/MC.png using Guid(229c8e076a63bb94dbbf9f22c64cae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d05533eb9f1d3c0419a41c97c2f46') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/FO-3.png
+  artifactKey: Guid(04be234a6eedc3a45ab06aed55ad63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/FO-3.png using Guid(04be234a6eedc3a45ab06aed55ad63b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a95441287b2b26ff514a602f16cb5') in 0.009986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/BG.png
+  artifactKey: Guid(40a850d9c6005984a8a6aadfc816101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/BG.png using Guid(40a850d9c6005984a8a6aadfc816101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a6f957a051b5e03e1270700731a792') in 0.008482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/LP.png
+  artifactKey: Guid(0efdb26bc731c8142b0f6dda65132a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/LP.png using Guid(0efdb26bc731c8142b0f6dda65132a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449ce7fb691b28ba4320a01b3ce5337f') in 0.008948 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

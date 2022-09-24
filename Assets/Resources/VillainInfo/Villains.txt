@@ -1,0 +1,217 @@
+LIBRO;VILLANO;FACCIÓN;PAGINA;NIVEL
+BESTIAS DEL CAOS;Nauj, el Centauro Mutante;CAOS;34;01-02
+BESTIAS DEL CAOS;Golgfag, el Ogro Mutante;CAOS;35;01-02
+BESTIAS DEL CAOS;Garralunar, Hijo de Mórrslieb;CAOS;5;02-03
+BESTIAS DEL CAOS;Molokh Lenguababosa, el Demonio del Hambre;CAOS;23;03-04
+BESTIAS DEL CAOS;Scyla Anfingrimm, La Garra de Khorne;CAOS;26;03-04
+BESTIAS DEL CAOS;Volga la Gorgona;CAOS;37;03-04
+BESTIAS DEL CAOS;Malagor, el Profeta Oscuro;CAOS;20;04-05
+BESTIAS DEL CAOS;Ungrol Cuatrocuernos;CAOS;32;04-05
+BESTIAS DEL CAOS;Ghorros Pezuñabélica;CAOS;6;05-06
+BESTIAS DEL CAOS;Gorthor, el cruel;CAOS;8;05-06
+BESTIAS DEL CAOS;Morghur, Señor de las Calaveras;CAOS;24;05-06
+BESTIAS DEL CAOS;Throgg el Rey Troll (Troll);CAOS;30;05-06
+BESTIAS DEL CAOS;Khazrak el Tuerto;CAOS;16;07-08
+BESTIAS DEL CAOS;Kholek Comesoles;CAOS;18;07-08
+BESTIAS DEL CAOS;Taurox, el Toro de Bronce (Minotauro);CAOS;28;07-08
+CONDES VAMPIRO;Urzen, el Vampiro Estrigoi Herido;NO MUERTOS;53;01-02
+CONDES VAMPIRO;Vyktrina y Anastasia las Hermanas espectrales;NO MUERTOS;57;01-02
+CONDES VAMPIRO;Molvar el Señor Espectro y el Lobo gigante;NO MUERTOS;55;03-04
+CONDES VAMPIRO;Krell;NO MUERTOS;14;04-05
+CONDES VAMPIRO;Isabella Von Carstein;NO MUERTOS;10;05-06
+CONDES VAMPIRO;Lord Falk, el Caballero Oscuro;NO MUERTOS;16;05-06
+CONDES VAMPIRO;Luthor Harkon;NO MUERTOS;18;05-06
+CONDES VAMPIRO;Neferata;NO MUERTOS;38;06-07
+CONDES VAMPIRO;El Duque Rojo;NO MUERTOS;6;07-08
+CONDES VAMPIRO;Heinrich Kemmler, el Eterno;NO MUERTOS;8;07-08
+CONDES VAMPIRO;Konrad Von Carstein;NO MUERTOS;12;07-08
+CONDES VAMPIRO;Walach Harkon;NO MUERTOS;48;07-08
+CONDES VAMPIRO;Melkhior el Anciano;NO MUERTOS;24;08-09
+CONDES VAMPIRO;Dieter Helsnich, Montado en Mantícora;NO MUERTOS;4;08-09-10
+CONDES VAMPIRO;Mannfred Von Carstein en Dragón Zombi;NO MUERTOS;20;08-09-10
+CONDES VAMPIRO;Nagash;NO MUERTOS;26;09-10
+CONDES VAMPIRO;Vlad Von Carstein;NO MUERTOS;43;09-10
+CONDES VAMPIRO;Vorag Diente Ensangrentado en Dragón Zombi;NO MUERTOS;46;08-09-10
+CONDES VAMPIRO;Zakarías el Eterno en Dragón Zombi;NO MUERTOS;50;08-09-10
+DEMONIOS DEL CAOS;Karanak, (Mastín) de la Venganza;CAOS;28;02-03
+DEMONIOS DEL CAOS;La Máscara de Slaanesh;CAOS;32;03-04
+DEMONIOS DEL CAOS;El Cambiante;CAOS;16;04-05
+DEMONIOS DEL CAOS;Epidemius, Archivista de Nurgle;CAOS;18;04-05
+DEMONIOS DEL CAOS;Los Escribas Azules;CAOS;20;04-05
+DEMONIOS DEL CAOS;Morbidex Doblenacido;CAOS;34;04-05
+DEMONIOS DEL CAOS;U’zuhl el Despojacráneos;CAOS;39;04-05
+DEMONIOS DEL CAOS;Azazel, Príncipe de Slaanesh;CAOS;6;06-07
+DEMONIOS DEL CAOS;Be’lakor, el Señor Oscuro;CAOS;8;06-07
+DEMONIOS DEL CAOS;Kairos Tejedestinos, Oráculo de Tzeentch;CAOS;26;08-09
+DEMONIOS DEL CAOS;Amon’Chakai;CAOS;5;09-10
+DEMONIOS DEL CAOS;Galrauch, (Dragón del Caos);CAOS;22;09-10
+DEMONIOS DEL CAOS;Ku’gath, Padre de la Plaga;CAOS;30;09-10
+DEMONIOS DEL CAOS;Skarbrand el Exiliado;CAOS;36;09-10
+ELFOS OSCUROS;Demone Ryme, Señora de las Bestias;ELFOS OSCUROS;36;01-02
+ELFOS OSCUROS;Raith Pieoscuro, Asesino Iniciado;ELFOS OSCUROS;38;01-02
+ELFOS OSCUROS;Melusina, Reina Bruja;ELFOS OSCUROS;40;03-04
+ELFOS OSCUROS;Husk Bawn, Verdugo Experto;ELFOS OSCUROS;42;03-04
+ELFOS OSCUROS;Rakarth, Señor de las Bestias;ELFOS OSCUROS;28;04-05-09-10
+ELFOS OSCUROS;Kouran Manoscura, Capitán de la Guardia Negra;ELFOS OSCUROS;6;05-06
+ELFOS OSCUROS;Lokhir Fellheart, Señor Kraken de Karond-Kar;ELFOS OSCUROS;8;05-06
+ELFOS OSCUROS;Shadowblade, Maestro de Asesinos;ELFOS OSCUROS;30;05-06
+ELFOS OSCUROS;Tullaris de Har Ganeth, Portador del Terror;ELFOS OSCUROS;32;05-06
+ELFOS OSCUROS;Malus Darkblade, Portador de Tz’arkan;ELFOS OSCUROS;14;06-07
+ELFOS OSCUROS;Anciana Hellebron, la Reina Bruja;ELFOS OSCUROS;4;08-09-10
+ELFOS OSCUROS;Morathi, Hechicera Bruja;ELFOS OSCUROS;24;08-09
+ELFOS OSCUROS;Malekith, Rey Brujo en Dragón Negro;ELFOS OSCUROS;10;09-10
+ENANOS   ;Josef Bugman;ENANOS DEL CAOS;5;03-04
+ENANOS   ;Drong El Largo;ENANOS DEL CAOS;7;03-04
+ENANOS   ;Kragg el Gruñón;ENANOS DEL CAOS;4;06-07
+ENANOS   ;Thorek Cejohierro;ENANOS DEL CAOS;6;06-07
+ENANOS   ;Rey Kazador;ENANOS DEL CAOS;2;07-08
+ENANOS   ;Ungrim Puñohierro;ENANOS DEL CAOS;2;07-08
+ENANOS   ;Belegar Martillo de Hierro;ENANOS DEL CAOS;3;07-08
+ENANOS   ;Rey Alrik Ranulfsson;ENANOS DEL CAOS;3;07-08
+ENANOS   ;Gotrek Gurnisson;ENANOS DEL CAOS;4;07-08
+ENANOS   ;Burlok Damminson;ENANOS DEL CAOS;6;07-08
+ENANOS   ;Alto Rey Enano Thorgrim;ENANOS DEL CAOS;5;09-10
+ENANOS DEL CAOS;Zeas, el Toro Centauro Mutante;ENANOS DEL CAOS;14;01-02
+ENANOS DEL CAOS;Defahl, El cruel;ENANOS DEL CAOS;15;01-02
+ENANOS DEL CAOS;Zuktarr Sundor, El Herrero;ENANOS DEL CAOS;17;01-02
+ENANOS DEL CAOS;Snevel, hobgolin jefe;ENANOS DEL CAOS;20;01-02
+ENANOS DEL CAOS;Enkni, Toro centauro;ENANOS DEL CAOS;21;03-04
+ENANOS DEL CAOS;Dracos calavera de muerte;ENANOS DEL CAOS;23;03-04
+ENANOS DEL CAOS;Hezak, el torcido;ENANOS DEL CAOS;25;03-04
+ENANOS DEL CAOS;Gorduz el Traicionero;ENANOS DEL CAOS;10;04-05
+ENANOS DEL CAOS;Ghazak Khan, Señor de las Estepas;ENANOS DEL CAOS;8;05-06
+ENANOS DEL CAOS;Zhatan el Negro, Señor de la Torre de Zharr;ENANOS DEL CAOS;11;06-07
+ENANOS DEL CAOS;Astragoth, Sumo Sacerdote de Hashut;ENANOS DEL CAOS;5;07-08
+ENANOS DEL CAOS;Drazhoath el Lívido, en Gran Tauro;ENANOS DEL CAOS;6;06-07-08-09
+HOMBRES LAGARTO;Tetto’eko, Astromante de las Constelaciones;HOMBRES LAGARTO;5;01-02
+HOMBRES LAGARTO;Oxyotl, El que Caza sin ser Visto;HOMBRES LAGARTO;1;02-03
+HOMBRES LAGARTO;Tiktaq’to, Señor de los Cielos;HOMBRES LAGARTO;5;02-03
+HOMBRES LAGARTO;Tenenhauin, Profeta de Sotek;HOMBRES LAGARTO;2;03-04
+HOMBRES LAGARTO;Gor-rok, el Gran Lagarto Blanco;HOMBRES LAGARTO;4;04-05
+HOMBRES LAGARTO;Chakax, Primer Guardián de Xlanhuapec;HOMBRES LAGARTO;4;05-06
+HOMBRES LAGARTO;Kroak, Venerable Cacique y Defensor de Itza;HOMBRES LAGARTO;1;06-07
+HOMBRES LAGARTO;Kroq-Gar, el Mayor de los Escamaduras;HOMBRES LAGARTO;3;07-08
+HOMBRES LAGARTO;Mazdamundi, Señor de la Ciudad del Sol;HOMBRES LAGARTO;2;09-10
+MONSTRUOS GENERICOS;Minotauro;MONSTRUOS GENERICOS;2;01-02
+MONSTRUOS GENERICOS;Ogro;MONSTRUOS GENERICOS;2;01-02
+MONSTRUOS GENERICOS;Centauro;MONSTRUOS GENERICOS;2;01-02
+MONSTRUOS GENERICOS;Ulfjarl (hombre lobo);MONSTRUOS GENERICOS;2;01-02
+MONSTRUOS GENERICOS;Araña Gigante;MONSTRUOS GENERICOS;3;01-02
+MONSTRUOS GENERICOS;Troll;MONSTRUOS GENERICOS;3;01-02
+MONSTRUOS GENERICOS;Escorpión Gigante;MONSTRUOS GENERICOS;3;01-02
+MONSTRUOS GENERICOS;Paladín Centauro;MONSTRUOS GENERICOS;4;02-03
+MONSTRUOS GENERICOS;Ogros Dragón;MONSTRUOS GENERICOS;4;02-03
+MONSTRUOS GENERICOS;Arbóreos;MONSTRUOS GENERICOS;4;02-03
+MONSTRUOS GENERICOS;Paladín Minotauro;MONSTRUOS GENERICOS;4;02-03
+MONSTRUOS GENERICOS;Paladín Ogro Dragón;MONSTRUOS GENERICOS;5;03-04
+MONSTRUOS GENERICOS;Gorgona;MONSTRUOS GENERICOS;5;03-04
+MONSTRUOS GENERICOS;Basilisco;MONSTRUOS GENERICOS;6;04-05
+MONSTRUOS GENERICOS;Hipogrifo;MONSTRUOS GENERICOS;6;04-05
+MONSTRUOS GENERICOS;Grifo;MONSTRUOS GENERICOS;6;04-05
+MONSTRUOS GENERICOS;Serpiente Alada;MONSTRUOS GENERICOS;6;04-05
+MONSTRUOS GENERICOS;Gran Tauro;MONSTRUOS GENERICOS;7;05-06
+MONSTRUOS GENERICOS;Lammasu;MONSTRUOS GENERICOS;7;05-06
+MONSTRUOS GENERICOS;Héroe Centauro;MONSTRUOS GENERICOS;7;05-06
+MONSTRUOS GENERICOS;Héroe Minotauro;MONSTRUOS GENERICOS;7;05-06
+MONSTRUOS GENERICOS;Mantícora;MONSTRUOS GENERICOS;7;05-06
+MONSTRUOS GENERICOS;Gigante;MONSTRUOS GENERICOS;8;05-06
+MONSTRUOS GENERICOS;Quimera;MONSTRUOS GENERICOS;9;06-07
+MONSTRUOS GENERICOS;Héroe Ogro Dragón;MONSTRUOS GENERICOS;9;06-07
+MONSTRUOS GENERICOS;Hidra;MONSTRUOS GENERICOS;9;06-07
+MONSTRUOS GENERICOS;Kharibdyss;MONSTRUOS GENERICOS;9;06-07
+MONSTRUOS GENERICOS;Dragón;MONSTRUOS GENERICOS;10;08-10
+MORTALES DEL CAOS;Godwin Taro, Campeón de Khorne;CAOS;64;01-02
+MORTALES DEL CAOS;Elixa Abasheena;CAOS;72;01-02
+MORTALES DEL CAOS;Antón, El Horrible, Hechicero de Nurgle;CAOS;87;01-02
+MORTALES DEL CAOS;Spewz el campeón de Nurgle;CAOS;88;01-02
+MORTALES DEL CAOS;Rolling Bones;CAOS;65;03-04
+MORTALES DEL CAOS;Lonzo Moreau, El Maestro de la Ilusión;CAOS;67;03-04
+MORTALES DEL CAOS;Ungwie, El novivo;CAOS;69;03-04
+MORTALES DEL CAOS;Vorl y Malmsteem Perro Negro;CAOS;73;03-04
+MORTALES DEL CAOS;Festasmus, El Septilo;CAOS;75;03-04
+MORTALES DEL CAOS;La Luna danzante y engendro de Tzeench;CAOS;82;03-04
+MORTALES DEL CAOS;Bacanal de Perversión;CAOS;84;03-04
+MORTALES DEL CAOS;Kordel Shorgaar, Portaestandarte de las Espadas del Caos;CAOS;42;04-05
+MORTALES DEL CAOS;Valnir el Segador;CAOS;56;04-05
+MORTALES DEL CAOS;Festus, Doctor Anélido;CAOS;28;05-06
+MORTALES DEL CAOS;Skarr Irasangrienta;CAOS;50;05-06
+MORTALES DEL CAOS;Feria ambulante del Caos;CAOS;77;05-06
+MORTALES DEL CAOS;Dechala la Renegada;CAOS;25;06-07
+MORTALES DEL CAOS;Gutrot Espuma, Señor de los Tentáculos;CAOS;34;06-07
+MORTALES DEL CAOS;Harald Martillo de Tormenta;CAOS;36;06-07
+MORTALES DEL CAOS;Kaleb Daark, Campeón de Malal;CAOS;38;04-05-06-07
+MORTALES DEL CAOS;Kayzk el Podrido, en Montura Demoníaca;CAOS;40;06-07
+MORTALES DEL CAOS;Mordrek el Condenado;CAOS;43;06-07
+MORTALES DEL CAOS;Orghotts Vómito de Demonio;CAOS;44;06-07-08
+MORTALES DEL CAOS;Sayl el Desleal;CAOS;46;06-07
+MORTALES DEL CAOS;Wulfrik el Errante y guardaespaldas;CAOS;62;04-05-06-07
+MORTALES DEL CAOS;Bloab Engendropútrido, Hechicero de Nurgle;CAOS;22;07-08
+MORTALES DEL CAOS;Valkia la Sanguinaria;CAOS;54;07-08
+MORTALES DEL CAOS;Vardek Crom el Conquistador, Heraldo de Archaón;CAOS;58;07-08
+MORTALES DEL CAOS;Vilitch el Maldito;CAOS;60;07-08
+MORTALES DEL CAOS;Aekold Helbrass, Campeón de Tzeentch;CAOS;5;08-09
+MORTALES DEL CAOS;Arbaal el Invencible, Destructor de Khorne;CAOS;6;08-09
+MORTALES DEL CAOS;Egrimm Van Horstmann, Hechicero de Tzeentch;CAOS;26;08-09-10
+MORTALES DEL CAOS;Sigvald el Magnífico;CAOS;48;08-09
+MORTALES DEL CAOS;Archaón, Señor del Fin de los Tiempos;CAOS;8;09-10
+MORTALES DEL CAOS;Glottkin, Hermanos Contaminados de Nurgle;CAOS;30;07-08-09-10
+MORTALES DEL CAOS;Tamurkhan, montado en Sapodragón;CAOS;52;07-08-09-10
+ORCOS Y GOBLINS;Gorgut, Jefe de los Colmillos Negros;ORCOS Y GOBLINS;48;01-02
+ORCOS Y GOBLINS;Skabzone, el Shamán;ORCOS Y GOBLINS;50;01-02
+ORCOS Y GOBLINS;Gubbinz el goblin bufón;ORCOS Y GOBLINS;52;01-02
+ORCOS Y GOBLINS;Gorfang Rotgut, Kaudillo de los Kolmilloz Rojoz;ORCOS Y GOBLINS;16;03-04
+ORCOS Y GOBLINS;Grotsnag, Azote de laz Montañaz Negraz;ORCOS Y GOBLINS;22;03-04
+ORCOS Y GOBLINS;Kapitán Skaben, Marinero Verde;ORCOS Y GOBLINS;26;03-04
+ORCOS Y GOBLINS;Komepiñoz Tripafea, el Goblin Máz Lizto de Todoz;ORCOS Y GOBLINS;28;03-04
+ORCOS Y GOBLINS;Oddgit, Chamán Goblin Nocturno;ORCOS Y GOBLINS;36;03-04
+ORCOS Y GOBLINS;Axemudd el Jefe Orco Salvaje;ORCOS Y GOBLINS;54;03-04
+ORCOS Y GOBLINS;Munk, el Chamán Orco Salvaje;ORCOS Y GOBLINS;56;03-04
+ORCOS Y GOBLINS;Borgut Machakajetoz, la Mano Derecha de Gorko;ORCOS Y GOBLINS;10;04-05
+ORCOS Y GOBLINS;Bruja Troll;ORCOS Y GOBLINS;12;04-05
+ORCOS Y GOBLINS;Grom el Panzudo, Kaudillo Goblin de la Montaña Nublada;ORCOS Y GOBLINS;20;04-05
+ORCOS Y GOBLINS;Oglok el Horrible;ORCOS Y GOBLINS;37;04-05
+ORCOS Y GOBLINS;Skarsnik, Señor de la Guerra de Karak-ocho-Picos;ORCOS Y GOBLINS;38;04-05
+ORCOS Y GOBLINS;Skiggit, El Gobo Negro;ORCOS Y GOBLINS;40;04-05
+ORCOS Y GOBLINS;Snagga, Gran Jefe Orco;ORCOS Y GOBLINS;42;04-05
+ORCOS Y GOBLINS;Uzguz, el Jefe de loz Nómadaz;ORCOS Y GOBLINS;43;04-05
+ORCOS Y GOBLINS;Badruk Rompekabezaz;ORCOS Y GOBLINS;8;05-06
+ORCOS Y GOBLINS;Gorbad Garra’ierro;ORCOS Y GOBLINS;14;06-07
+ORCOS Y GOBLINS;Grumlok y Gazbag;ORCOS Y GOBLINS;24;06-07
+ORCOS Y GOBLINS;Wurrzag ud Ura Zahubu, Gran Chamán de la tribu Nariz Huezuda;ORCOS Y GOBLINS;44;06-07
+ORCOS Y GOBLINS;Grimgor Piel’ierro, Kaudillo Orco Negro;ORCOS Y GOBLINS;18;07-08
+ORCOS Y GOBLINS;Kundar Pizakráneoz, Kaudillo de los Kráneoz Rojoz;ORCOS Y GOBLINS;30;07-08
+ORCOS Y GOBLINS;Morglum Quiebracuellos, Kaudillo del Este;ORCOS Y GOBLINS;32;07-08
+ORCOS Y GOBLINS;Nazgob, Maestro Chamán;ORCOS Y GOBLINS;34;07-08
+ORCOS Y GOBLINS;Azhag el Carnicero montado en Serpiente Alada;ORCOS Y GOBLINS;6;07-08-09
+REINOS OGROS;Bragg, El Desollador;CAOS;4;02-03
+REINOS OGROS;Braugh, Señordeesclavos;CAOS;6;04-05
+REINOS OGROS;Ghark, Tirano Pielférrea;CAOS;8;06-07
+REINOS OGROS;Skrag, El Carnicero;CAOS;12;06-07
+REINOS OGROS;Grasientus Dientedoro;CAOS;10;07-08
+REYES FUNERARIOS;Ramhotep el Visionario;NO MUERTOS;14;01-02
+REYES FUNERARIOS;Van Dammeg, el Rey Maldito;NO MUERTOS;20;01-02
+REYES FUNERARIOS;Luthor, Alberto y Gunther Laranscheld;NO MUERTOS;22;01-02
+REYES FUNERARIOS;Rey Esqueleto y Armand Vespin;NO MUERTOS;24;03-04
+REYES FUNERARIOS;Príncipe Majeem y Estatua Sinjin;NO MUERTOS;25;03-04
+REYES FUNERARIOS;Khalida Neferher, Gran Reina;NO MUERTOS;10;04-05
+REYES FUNERARIOS;Apophas, Señor Maldito de los Escarabajos;NO MUERTOS;8;05-06
+REYES FUNERARIOS;Nekhap, Campeón de Settra;NO MUERTOS;13;05-06
+REYES FUNERARIOS;Khatep, Gran Hierofante de Khemri;NO MUERTOS;12;06-07
+REYES FUNERARIOS;Arkhan el Negro;NO MUERTOS;4;07-08
+REYES FUNERARIOS;Sehenesmet, Visir de Quatar;NO MUERTOS;15;08-09
+REYES FUNERARIOS;Settra el Imperecedero;NO MUERTOS;16;09-10
+SKAVEN;Festid, Hoja de inmundicia;SKAVEN;34;01-02
+SKAVEN;Phlem, El Ingeniero Skaven;SKAVEN;33;01-02
+SKAVEN;Skamps, El Enfermizo;SKAVEN;36;01-02
+SKAVEN;Rance, La Garrapata;SKAVEN;38;01-02
+SKAVEN;Ghoritch, Castellano del Pozo Infernal;SKAVEN;4;03-04
+SKAVEN;Queek, el Coleccionista de Cabezas;SKAVEN;10;03-04
+SKAVEN;Skweel Piñatarroída, Maestro de las Bestias del Pozo Infernal;SKAVEN;14;03-04
+SKAVEN;Tretch Colacobarde;SKAVEN;30;03-04
+SKAVEN;Nurglitch, Archiseñor de la Plaga;SKAVEN;8;05-06
+SKAVEN;Skrolk, Señor de la Plaga del Clan Pestilens;SKAVEN;12;05-06
+SKAVEN;Throt el Inmundo;SKAVEN;26;05-06
+SKAVEN;Ikit Claw, Ingeniero Jefe del Clan Skryre;SKAVEN;5;07-08
+SKAVEN;Snikch, Jefe de los Asesinos del Clan Eshin;SKAVEN;15;07-08
+SKAVEN;Veskit, Gran Verdugo del Clan Eshin;SKAVEN;31;07-08
+SKAVEN;Thanquol, Vidente Gris;SKAVEN;18;09-10
