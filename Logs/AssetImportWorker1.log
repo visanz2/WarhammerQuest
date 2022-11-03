@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16159 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'es' Physical Memory: 32509 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/U19713/Downloads/WarhammerQuest
+C:/Users/tipex/Desktop/WarhamerQuest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61264
-Successfully changed project path to: C:/Users/U19713/Downloads/WarhammerQuest
-C:/Users/U19713/Downloads/WarhammerQuest
+54108
+Successfully changed project path to: C:/Users/tipex/Desktop/WarhamerQuest
+C:/Users/tipex/Desktop/WarhamerQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,122 +47,137 @@ C:/Users/U19713/Downloads/WarhammerQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/U19713/Downloads/WarhammerQuest/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tipex/Desktop/WarhamerQuest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc8)
-    Vendor:   Intel
-    VRAM:     8079 MB
-    Driver:   30.0.101.1003
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   31.0.15.1659
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008374 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008272 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (654ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (108ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005313 seconds.
+Registered in 0.004672 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\WarhamerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\WarhamerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.350 seconds
+- Completed reload, in  1.114 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (1114ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (144ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (537ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (458ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (90.4 KB). Loaded Objects now: 4731.
-Memory consumption went from 154.9 MB to 154.8 MB.
-Total: 3.624100 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.263800 ms MarkObjects: 2.843700 ms  DeleteObjects: 0.113800 ms)
+Unloading 29 unused Assets / (93.1 KB). Loaded Objects now: 4728.
+Memory consumption went from 154.7 MB to 154.6 MB.
+Total: 3.763900 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.137800 ms MarkObjects: 3.191900 ms  DeleteObjects: 0.127100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -170,913 +185,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1180206.973276 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-2/1.png
-  artifactKey: Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-2/1.png using Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e97fd56ba0b642dc3abe2ce42b3dd6e') in 0.104721 seconds 
+  Time since last request: 771707.024589 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.007213 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\WarhamerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tipex\Desktop\WarhamerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (83.3 KB). Loaded Objects now: 4731.
+Memory consumption went from 151.2 MB to 151.1 MB.
+Total: 3.804900 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.137100 ms  DeleteObjects: 0.146100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-2/2.png
-  artifactKey: Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-2/2.png using Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e466b1f669809b7e96c122b8186e118d') in 0.040148 seconds 
+  Time since last request: 9117.520670 seconds.
+  path: Assets/Prefabs/Hero_Icon.prefab
+  artifactKey: Guid(f098ac44f2e350a46912a341d5b9b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hero_Icon.prefab using Guid(f098ac44f2e350a46912a341d5b9b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6972095fec1f09039da7f86cdd47708') in 0.253918 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.154408 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-4/1.png
-  artifactKey: Guid(519e298716740df4e9e29a6f38838662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-4/1.png using Guid(519e298716740df4e9e29a6f38838662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c442cfbff997be99f8a5f3f9a6ca8d') in 0.016088 seconds 
+  Time since last request: 1.504055 seconds.
+  path: Assets/Prefabs/Map/Mask_City.prefab
+  artifactKey: Guid(503d456be68ed7a4bb61493c544c9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Mask_City.prefab using Guid(503d456be68ed7a4bb61493c544c9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbf7e452357e40c72d96ba4a42058a0') in 0.085620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-10.png
-  artifactKey: Guid(45d7ec7c3be8f744c8a6bedb1c29c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-10.png using Guid(45d7ec7c3be8f744c8a6bedb1c29c0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caae0e9c8a8852c777bb38bca6efbe0') in 0.067550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-2/1.png
-  artifactKey: Guid(5453b7c186f33a948bac9d5255dc1ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/1.png using Guid(5453b7c186f33a948bac9d5255dc1ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324f74624552e89ba1c617e88254963a') in 0.041478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SG/1.png
-  artifactKey: Guid(f822c67d2b5d098469d875c1d188f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SG/1.png using Guid(f822c67d2b5d098469d875c1d188f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4ce2a11babb19bdc39c594e0e4c853') in 0.010499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BB/1.png
-  artifactKey: Guid(d913af8963bff5142a0ab88f267b5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BB/1.png using Guid(d913af8963bff5142a0ab88f267b5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c413a9ef16375d574b3a38d56293267') in 0.010630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/1.png
-  artifactKey: Guid(fe52a42bd0bc0044a8e06795d278729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/1.png using Guid(fe52a42bd0bc0044a8e06795d278729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06fbf588defface2c639c9f0231759d') in 0.012171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EA/1.png
-  artifactKey: Guid(61fdd939e30e46a4ab5cf6489f5382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EA/1.png using Guid(61fdd939e30e46a4ab5cf6489f5382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e804896684e67841eb9e1ac35ac740') in 0.014001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/1.png
-  artifactKey: Guid(96da7a2d3c684b34299365001ef5bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/1.png using Guid(96da7a2d3c684b34299365001ef5bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad635e2d0da50d71ac56dc408078fde3') in 0.014472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-2/1.png
-  artifactKey: Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-2/1.png using Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfdb5fc68381a8b7bd0a0e2426b9ee9') in 0.021464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EN/1.png
-  artifactKey: Guid(c02207e0de2904446999ab174f9ac053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EN/1.png using Guid(c02207e0de2904446999ab174f9ac053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248b0d9dc5520b782829516d029ff6fb') in 0.018605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/1.png
-  artifactKey: Guid(3203879ca085c74459c26c58804688e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/1.png using Guid(3203879ca085c74459c26c58804688e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c946496cc464867d8b530b3df12e2814') in 0.012683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-11.png
-  artifactKey: Guid(bfeee90928208dc45b9e7108df9381ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-11.png using Guid(bfeee90928208dc45b9e7108df9381ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee73427dc78a430f756ae58eba190795') in 0.041929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-16.png
-  artifactKey: Guid(1552d087f4c0ed441a70e53e2040f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-16.png using Guid(1552d087f4c0ed441a70e53e2040f061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63407e7b68819f934c22ec946165c054') in 0.056098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-1/1.png
-  artifactKey: Guid(40b93fc0bf0e1c34e86ee3da4d5315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/1.png using Guid(40b93fc0bf0e1c34e86ee3da4d5315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145136695c1708b9b628a98aabffc725') in 0.013991 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Map/Mask_DwarfVillage.prefab
+  artifactKey: Guid(e6786b6797bf54642928e506d71a0c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Mask_DwarfVillage.prefab using Guid(e6786b6797bf54642928e506d71a0c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f7737f0ed36480aa400757760e2102') in 0.057843 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/PhotoViewer/Photos/20200818_155012.jpg
-  artifactKey: Guid(d9db49aa7c0f3cf44a8ec5f980e65158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PhotoViewer/Photos/20200818_155012.jpg using Guid(d9db49aa7c0f3cf44a8ec5f980e65158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be5a5840d5021b2c2613a7f4f6bad85') in 0.383130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/1.png
-  artifactKey: Guid(15685892de08c0346909dcee3a1e2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/1.png using Guid(15685892de08c0346909dcee3a1e2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e1118e2d4f5e7d497c50218c1f58b4') in 0.014153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PhotoViewer/Photos/20200818_123845.jpg
-  artifactKey: Guid(0d4899e8b1885c64a8a53853d6265d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PhotoViewer/Photos/20200818_123845.jpg using Guid(0d4899e8b1885c64a8a53853d6265d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7cbb87c036e3b0be45644c7d617b46') in 0.298923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.504509 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/ENA/1.png
-  artifactKey: Guid(a31a7deb88a95574a9db019b5b24df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/ENA/1.png using Guid(a31a7deb88a95574a9db019b5b24df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192a9d83eaad79a210832cb72073d547') in 0.068289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BA/1.png
-  artifactKey: Guid(46965df33ad39054db4cf12c392a0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BA/1.png using Guid(46965df33ad39054db4cf12c392a0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43bc7f1c9bdcf18eff0793e6a8cb383') in 0.068022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BB/1.png
-  artifactKey: Guid(d913af8963bff5142a0ab88f267b5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BB/1.png using Guid(d913af8963bff5142a0ab88f267b5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfbf82d3eea21cd135acd8e78a4b704') in 0.051027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/1.png
-  artifactKey: Guid(fe52a42bd0bc0044a8e06795d278729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/1.png using Guid(fe52a42bd0bc0044a8e06795d278729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ffe7a54b7e41fe5ab87f6a36cf0821') in 0.053149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-2/1.png
-  artifactKey: Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-2/1.png using Guid(ff46157073fa5bd4ebd17f5e4a65a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc34a818f9d778f85a48503ec870a2ba') in 0.058814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-1/1.png
-  artifactKey: Guid(40b93fc0bf0e1c34e86ee3da4d5315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/1.png using Guid(40b93fc0bf0e1c34e86ee3da4d5315ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330518404950e5f322bde257873218f5') in 0.049899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SR/1.png
-  artifactKey: Guid(7abc0bc63831e6f49802b611e5f4ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SR/1.png using Guid(7abc0bc63831e6f49802b611e5f4ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9031e0cc55b88e5737919c2de0dc4aeb') in 0.059755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/1.png
-  artifactKey: Guid(15685892de08c0346909dcee3a1e2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/1.png using Guid(15685892de08c0346909dcee3a1e2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2267905cb0f59ae8fab810c9e57a738') in 0.049823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-1/1.png
-  artifactKey: Guid(814f30a405009cb4ab64bbc48b4180c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-1/1.png using Guid(814f30a405009cb4ab64bbc48b4180c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f841037127172318aa8630a62cd62') in 0.049466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MC/1.png
-  artifactKey: Guid(a11f89e6e87a4e348b682c1a48821220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MC/1.png using Guid(a11f89e6e87a4e348b682c1a48821220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023cba60c14baca5fa29afb82ef1e416') in 0.052686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.044937 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/2.png
-  artifactKey: Guid(9d37c53e9fa05b7438a8f90fe6d79eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/2.png using Guid(9d37c53e9fa05b7438a8f90fe6d79eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e218e0892df0d5413788d22fdd5762') in 0.020679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/2.png
-  artifactKey: Guid(d9cbbc6919a094641bdc8a4c8d44a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/2.png using Guid(d9cbbc6919a094641bdc8a4c8d44a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e608a4ff9f45b10720f0dd89741c6e0') in 0.014959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LM/2.png
-  artifactKey: Guid(6c7b2a2492626b5448e2c59b39afa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LM/2.png using Guid(6c7b2a2492626b5448e2c59b39afa417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504c99b5d008c98aed6786fb0b368864') in 0.009678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/2.png
-  artifactKey: Guid(9ebe575fa50b3284696cbe93531db516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/2.png using Guid(9ebe575fa50b3284696cbe93531db516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d0ff2d3ee631671ea93ca5e1ec45f4') in 0.018355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BG/2.png
-  artifactKey: Guid(0a7e6bcce769ac742a7af32cda55af62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BG/2.png using Guid(0a7e6bcce769ac742a7af32cda55af62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d2b075d219dec22f0641770807b319') in 0.011648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-24.png
-  artifactKey: Guid(bd9ae985633e03d4bbd9f183c01af163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-24.png using Guid(bd9ae985633e03d4bbd9f183c01af163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9904a3e1ceb3cf5d89866f1e0eefe4bd') in 0.053232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-22.png
-  artifactKey: Guid(4616ff1046d002f45a5d5782e6aeb2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-22.png using Guid(4616ff1046d002f45a5d5782e6aeb2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29898f7d17ab598959ef535bc9ab0f29') in 0.051348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BA/2.png
-  artifactKey: Guid(ccd0702fc3b23e04987d21f8c682b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BA/2.png using Guid(ccd0702fc3b23e04987d21f8c682b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43fb3db7aaf38b4cbd4f2f6b82658e7') in 0.015681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-3/2.png
-  artifactKey: Guid(5f8e530918f3de543bde555c72c13a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-3/2.png using Guid(5f8e530918f3de543bde555c72c13a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893419c6d24eb75f7bf9fdfd3e3e564b') in 0.012856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MC/2.png
-  artifactKey: Guid(ce4ab0ab1503061418f8e495de28c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MC/2.png using Guid(ce4ab0ab1503061418f8e495de28c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b1a93b498b0434f347e5dbfd83d1b') in 0.019731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MA/2.png
-  artifactKey: Guid(cf3ab28b44ea8b141aa8704d87f8b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MA/2.png using Guid(cf3ab28b44ea8b141aa8704d87f8b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9a11a798bbcb0fc9846bc83b5c0023') in 0.014013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BB/2.png
-  artifactKey: Guid(64674b27544f83041b993d144ae80592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BB/2.png using Guid(64674b27544f83041b993d144ae80592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d8874e177a279702f626a0d2625f0') in 0.025103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/2.png
-  artifactKey: Guid(11ac9f10afbabfe4290f6809ed6b91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/2.png using Guid(11ac9f10afbabfe4290f6809ed6b91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5481ba133e9ce96fcdc99b1d6bceb750') in 0.011889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/2.png
-  artifactKey: Guid(20e792825f9ea1a42a9977b2aa47c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/2.png using Guid(20e792825f9ea1a42a9977b2aa47c60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7936cffff1771c7acc8650b157263330') in 0.017239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LA/2.png
-  artifactKey: Guid(eddd73d27a158254da84b80602770322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LA/2.png using Guid(eddd73d27a158254da84b80602770322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f391f1c56f0d7778bde67ac6ddbc5ca9') in 0.008135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.924578 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-29.png
-  artifactKey: Guid(99915e044fee5d64cb3a57628ed2b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-29.png using Guid(99915e044fee5d64cb3a57628ed2b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd1e9a50dd63f6fec0906b3d81d77e3') in 0.056514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Images/CampaignEventCards/A/A-32.png
-  artifactKey: Guid(254b8638eb54de24396bc184d7a2ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/CampaignEventCards/A/A-32.png using Guid(254b8638eb54de24396bc184d7a2ffdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd06772a1d1745c2150a50b3361a6eba') in 0.022197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.269658 seconds.
-  path: Assets/Resources/DarkSecrets/FlagsMaterial/AS-2.mat
-  artifactKey: Guid(8a41bffa85b3c474186de3a725d35eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/FlagsMaterial/AS-2.mat using Guid(8a41bffa85b3c474186de3a725d35eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e6359213092d7ab8172bee527d8224') in 0.164061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.411913 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/NO-2.png
-  artifactKey: Guid(3f6b0c8291eb9684dbf0a7f3a7aa8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/NO-2.png using Guid(3f6b0c8291eb9684dbf0a7f3a7aa8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7532d5d13dbb728f681045b610d82abc') in 0.016641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.371154 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/2.png
-  artifactKey: Guid(655a523636de2734d9cf625bc19aad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/2.png using Guid(655a523636de2734d9cf625bc19aad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79109e390ac27dba1f54683282cc582') in 0.067880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-2/2.png
-  artifactKey: Guid(36e78cc8e46fd134a810eae96e8da931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/2.png using Guid(36e78cc8e46fd134a810eae96e8da931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e4f26da6be8c1f1c561d975a156c2e') in 0.075438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EN/2.png
-  artifactKey: Guid(166e1d2e762df3441948614c299f7875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EN/2.png using Guid(166e1d2e762df3441948614c299f7875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09169b3993a2e2deab9c8a4c1829b23') in 0.052168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CZ/2.png
-  artifactKey: Guid(f8c0c1a2ca4b65d47a27841b7437a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CZ/2.png using Guid(f8c0c1a2ca4b65d47a27841b7437a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6cf7515fb60d790ae6d12c2900a626') in 0.057277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-4/2.png
-  artifactKey: Guid(2a77aa16826728e409458f2e4bc84fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-4/2.png using Guid(2a77aa16826728e409458f2e4bc84fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7880eb7599b9568005670e7f1941f3b') in 0.052562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/2.png
-  artifactKey: Guid(9d37c53e9fa05b7438a8f90fe6d79eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/2.png using Guid(9d37c53e9fa05b7438a8f90fe6d79eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9ce342461c7db52eb7a8455c10acfc') in 0.048663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-3/2.png
-  artifactKey: Guid(5f8e530918f3de543bde555c72c13a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-3/2.png using Guid(5f8e530918f3de543bde555c72c13a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831e1da8198d2f84e0cc516b76b53c27') in 0.053689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MA/2.png
-  artifactKey: Guid(cf3ab28b44ea8b141aa8704d87f8b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MA/2.png using Guid(cf3ab28b44ea8b141aa8704d87f8b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a300b40a1b00d798c4bcf89d878d34') in 0.050832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SR/2.png
-  artifactKey: Guid(3c7482573d076ab41ac3c652bc68e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SR/2.png using Guid(3c7482573d076ab41ac3c652bc68e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3261ff098407e7dd8451e8417a9d3b') in 0.053313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/2.png
-  artifactKey: Guid(11ac9f10afbabfe4290f6809ed6b91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/2.png using Guid(11ac9f10afbabfe4290f6809ed6b91ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2a95492059cae3e42738ad78e69479') in 0.051465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.782294 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/3.png
-  artifactKey: Guid(505d225bd4c0c0e438589aa3d9dd70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/3.png using Guid(505d225bd4c0c0e438589aa3d9dd70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28bb458672a1079c2721f0160308c97') in 0.017952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SG/3.png
-  artifactKey: Guid(bdc2c81a82a16754f9c1cde981adafa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SG/3.png using Guid(bdc2c81a82a16754f9c1cde981adafa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b2e404110768cb39dd0e7e92778e70') in 0.018194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CB/3.png
-  artifactKey: Guid(1b56cbf69c0f47240a2ae44ae735cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CB/3.png using Guid(1b56cbf69c0f47240a2ae44ae735cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f06742255cf9703270556645f3f360') in 0.010193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MA/3.png
-  artifactKey: Guid(b22780cbf41aaeb4980cc9a4e7260090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MA/3.png using Guid(b22780cbf41aaeb4980cc9a4e7260090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681460fac09d7502261f8ac2ccd8972e') in 0.015944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LM/3.png
-  artifactKey: Guid(7c5334bc18075e1408d23daca62119cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LM/3.png using Guid(7c5334bc18075e1408d23daca62119cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5b17be3dafc56048e825dd1ff75972') in 0.010075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-2/3.png
-  artifactKey: Guid(a7d5271d66f698c48aa905b17214f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-2/3.png using Guid(a7d5271d66f698c48aa905b17214f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec94fe7620c539f0f4683e4362da1bbc') in 0.012004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/3.png
-  artifactKey: Guid(8a127008a9cbeb744a9ebdb9f145cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/3.png using Guid(8a127008a9cbeb744a9ebdb9f145cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e49e3c482fc78f2dbb4a2c0501143a6') in 0.012802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LA/3.png
-  artifactKey: Guid(b3c54e5b3d2cfbf4ebfbcb2f1b03d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LA/3.png using Guid(b3c54e5b3d2cfbf4ebfbcb2f1b03d27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feb5a59fc148ca8d0d42e852304386e') in 0.009569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SR/3.png
-  artifactKey: Guid(e0947ad7caf90fb458109611504630b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SR/3.png using Guid(e0947ad7caf90fb458109611504630b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2e62da258f63a2ea799860ffc9680b') in 0.013633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/3.png
-  artifactKey: Guid(497eec60dec1b514a9f328c3af18e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/3.png using Guid(497eec60dec1b514a9f328c3af18e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd276bb3b5b7e5c70e6fda710dff67f') in 0.010439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HS/3.png
-  artifactKey: Guid(b92a242d8ecec8b49891ff6b2d774810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HS/3.png using Guid(b92a242d8ecec8b49891ff6b2d774810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e547e6fc9b598113ea9ee1942e21973') in 0.012207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/DR/3.png
-  artifactKey: Guid(9654b154a80875f499f97fec1a33f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/DR/3.png using Guid(9654b154a80875f499f97fec1a33f98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4885cd3125e61fc9f3ecdb7e43defae7') in 0.008760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.398476 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/3.png
-  artifactKey: Guid(b530d42815b268e4491e581c4dd909e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/3.png using Guid(b530d42815b268e4491e581c4dd909e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd928942a4e5f4d5de521227b98b1821c') in 0.076976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/ENA/3.png
-  artifactKey: Guid(253910853c9ecbd40b8b43377902ec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/ENA/3.png using Guid(253910853c9ecbd40b8b43377902ec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7bf974b8fd9daa889ccc70a229ad26') in 0.056077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CB/3.png
-  artifactKey: Guid(1b56cbf69c0f47240a2ae44ae735cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CB/3.png using Guid(1b56cbf69c0f47240a2ae44ae735cfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00da380dbab64cbd6776312e66a7208') in 0.065097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/3.png
-  artifactKey: Guid(8b2b2140f771ef54396388b5cf1bf9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/3.png using Guid(8b2b2140f771ef54396388b5cf1bf9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d478a3fcf8f2b5d13a03d6fe3d8fdab') in 0.055236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/3.png
-  artifactKey: Guid(778d1de0a9f5a47459e5e334839516f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/3.png using Guid(778d1de0a9f5a47459e5e334839516f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d76203e553635793be07b55f2b51c96') in 0.052749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-2/3.png
-  artifactKey: Guid(a7d5271d66f698c48aa905b17214f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-2/3.png using Guid(a7d5271d66f698c48aa905b17214f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df405368aa26b3a702695b1232e36f30') in 0.053951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/GC/3.png
-  artifactKey: Guid(d64ded034ad0a7c498633a14ba33a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/GC/3.png using Guid(d64ded034ad0a7c498633a14ba33a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b16a432199ae8f665df971731ce8a7') in 0.050551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/OG/3.png
-  artifactKey: Guid(27e1d9c6eb1b7a2478ce6de4b40499bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/OG/3.png using Guid(27e1d9c6eb1b7a2478ce6de4b40499bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38ffcebd2b0439e07ef1aa2c7a61d25') in 0.059959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/3.png
-  artifactKey: Guid(82e8ee7d025892e4c8477d10ec101170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/3.png using Guid(82e8ee7d025892e4c8477d10ec101170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33630c4b37e0df60627088cc0e20361') in 0.065721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-2/3.png
-  artifactKey: Guid(c352c6000e88cda4ea66bda419ddf9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/3.png using Guid(c352c6000e88cda4ea66bda419ddf9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac01a87b884809b8cc461bbcf7253c4') in 0.060728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.779527 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/4.png
-  artifactKey: Guid(aec35366286e3574f88db1eef7d8990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/4.png using Guid(aec35366286e3574f88db1eef7d8990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e70eb4048d259606fc35313e196980') in 0.014827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MC/4.png
-  artifactKey: Guid(f6c8cef35d247254bbb5d8f69622ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MC/4.png using Guid(f6c8cef35d247254bbb5d8f69622ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceab3642b3dfef6ce885d99369c570d') in 0.015443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MA/4.png
-  artifactKey: Guid(e3dc63b83164f38408a88caa8546533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MA/4.png using Guid(e3dc63b83164f38408a88caa8546533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b2fdc1a9aaeade3d5a4d30016a1c48') in 0.013248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CB/4.png
-  artifactKey: Guid(29e91c5c7336c3546893ddf6dbd14aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CB/4.png using Guid(29e91c5c7336c3546893ddf6dbd14aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b8d3f990ac71ca2a0cf0723f2cfd7a') in 0.011605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/4.png
-  artifactKey: Guid(add469d6e50865d4f9f4cb0c9df2cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/4.png using Guid(add469d6e50865d4f9f4cb0c9df2cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033a75e43fec7c3c8e0f3616007c3dd6') in 0.012975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EA/4.png
-  artifactKey: Guid(cab471abcb116f84caeee3bfc7a41c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EA/4.png using Guid(cab471abcb116f84caeee3bfc7a41c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1709e7591daf868ec618f9ede6855ed') in 0.010504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/4.png
-  artifactKey: Guid(2b6671ceb7c558f43ae3cf777077e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/4.png using Guid(2b6671ceb7c558f43ae3cf777077e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ebacb536e4e9cd88a5f2824e4dde4') in 0.013774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/4.png
-  artifactKey: Guid(08e6fb9399090db4bb7c67746906c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/4.png using Guid(08e6fb9399090db4bb7c67746906c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6122186c86c9aec9586d04f23e491b3') in 0.011281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-2/4.png
-  artifactKey: Guid(6a5b0484dfc67fe4d8b2220e2d6cb04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/4.png using Guid(6a5b0484dfc67fe4d8b2220e2d6cb04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6add36fa61a3245251411ceea8be61e5') in 0.012337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/4.png
-  artifactKey: Guid(99b06c884a26551499492d7077719be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/4.png using Guid(99b06c884a26551499492d7077719be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb60a15f0c87d048a56fc006210772a2') in 0.013696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-2/4.png
-  artifactKey: Guid(7e5e349e1dc0199438b16424849f1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-2/4.png using Guid(7e5e349e1dc0199438b16424849f1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58da1db00ae81ee8f4f16c9af8d2a3a0') in 0.010555 seconds 
+  path: Assets/Prefabs/Map/Mask_Villain.prefab
+  artifactKey: Guid(d5962f5be14915e49a38140c3e520f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Mask_Villain.prefab using Guid(d5962f5be14915e49a38140c3e520f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72872d3a3ac73245ce53f05a76b9fd6d') in 0.049632 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BB/4.png
-  artifactKey: Guid(28fcde967b58a0b4baa233f703bfcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BB/4.png using Guid(28fcde967b58a0b4baa233f703bfcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144fa42abc17218fb618d22c79c6e3c7') in 0.015686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.381135 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/GC/4.png
-  artifactKey: Guid(5e76d149ce8511e4f8253133106131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/GC/4.png using Guid(5e76d149ce8511e4f8253133106131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953fbcf8f374f38aa50482d6a1d8dc06') in 0.055434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BB/4.png
-  artifactKey: Guid(28fcde967b58a0b4baa233f703bfcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BB/4.png using Guid(28fcde967b58a0b4baa233f703bfcab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8d5886c9b23c3cf1bb8e18f0cb933f') in 0.057813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EN/4.png
-  artifactKey: Guid(77d728e026d4b2145ac6e70d5a081930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EN/4.png using Guid(77d728e026d4b2145ac6e70d5a081930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3318a48890b6f73582e048c85141fdaa') in 0.056800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CB/4.png
-  artifactKey: Guid(29e91c5c7336c3546893ddf6dbd14aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CB/4.png using Guid(29e91c5c7336c3546893ddf6dbd14aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ed7f1075f6020448d465c0b1940800') in 0.050144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/4.png
-  artifactKey: Guid(258584f2460401c42b776c9f5aace4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/4.png using Guid(258584f2460401c42b776c9f5aace4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fedecb4916727075f86b8c63e6ea3c') in 0.056900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/4.png
-  artifactKey: Guid(add469d6e50865d4f9f4cb0c9df2cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/4.png using Guid(add469d6e50865d4f9f4cb0c9df2cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b293fbba7f194bb3bad8d7f04e18dc') in 0.050833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/4.png
-  artifactKey: Guid(2b6671ceb7c558f43ae3cf777077e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/4.png using Guid(2b6671ceb7c558f43ae3cf777077e7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76db5e917fd82f2b40e931ffcb0c6f1') in 0.049759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/VALK/4.png
-  artifactKey: Guid(08e6fb9399090db4bb7c67746906c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/VALK/4.png using Guid(08e6fb9399090db4bb7c67746906c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cc49681944be7cfcdd1fe1939828c7') in 0.053973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CR/4.png
-  artifactKey: Guid(19d555614712cf44a95ea74ad3efe83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CR/4.png using Guid(19d555614712cf44a95ea74ad3efe83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42ed4a34530372918bdf447f065b169') in 0.049927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/OG/4.png
-  artifactKey: Guid(9925fe78b6e360f49945d73fab57766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/OG/4.png using Guid(9925fe78b6e360f49945d73fab57766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdff61c3334e1bfed3cba5982a8f97f') in 0.060802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/4.png
-  artifactKey: Guid(aec35366286e3574f88db1eef7d8990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/4.png using Guid(aec35366286e3574f88db1eef7d8990f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b258069e3a6731d40bde4c51005e826') in 0.051363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.898209 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/5.png
-  artifactKey: Guid(1d8d6b01c7b20e14cb7a33793482249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/5.png using Guid(1d8d6b01c7b20e14cb7a33793482249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2db5cbec473b4217b2b5422d24a03') in 0.017439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EN/5.png
-  artifactKey: Guid(67d09e078e5e95645ad364ea45d8c0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EN/5.png using Guid(67d09e078e5e95645ad364ea45d8c0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7355dcfac0205da9e69e3082af0cd30') in 0.017322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BG/5.png
-  artifactKey: Guid(84d506ee4a620a84cb7360a19f18a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BG/5.png using Guid(84d506ee4a620a84cb7360a19f18a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fd05c0ed97df8ba19198c329ae37f3') in 0.016797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CZ/5.png
-  artifactKey: Guid(d6d290023d3b1c14d925d202bb2cd964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CZ/5.png using Guid(d6d290023d3b1c14d925d202bb2cd964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782eb70ff8954f94fbfc25b59defd81c') in 0.018235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/SG/5.png
-  artifactKey: Guid(9e9b8bcd4265ab04c9b5475c64964278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/SG/5.png using Guid(9e9b8bcd4265ab04c9b5475c64964278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b265432b4d35ed4c5b672e5e81a8268b') in 0.011195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/DR/5.png
-  artifactKey: Guid(ee8bad96db304424689e6f37da9b11ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/DR/5.png using Guid(ee8bad96db304424689e6f37da9b11ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7064ad276d2cc95f0f7ffffe4f56d12') in 0.010972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-1/5.png
-  artifactKey: Guid(a7d4bd8331a21904791248eff8ac614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-1/5.png using Guid(a7d4bd8331a21904791248eff8ac614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06bcf9e73bfd2b71d2a958a20b9e589') in 0.011529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/5.png
-  artifactKey: Guid(79c4cb015ded81d4ea289b750d9e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/5.png using Guid(79c4cb015ded81d4ea289b750d9e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4598b8ed53bc9cc6f0c42b1679fd6bc') in 0.012195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/5.png
-  artifactKey: Guid(b9f0e76acbe89644e97fa2577b1043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/5.png using Guid(b9f0e76acbe89644e97fa2577b1043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb0c7d004b0937ce52205799261b85a') in 0.013982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HS/5.png
-  artifactKey: Guid(e02aa9a5f5977e748b730cd4dd938b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HS/5.png using Guid(e02aa9a5f5977e748b730cd4dd938b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a702238d64608f271fe0373ac36bf71') in 0.009810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CHA-1/5.png
-  artifactKey: Guid(e7b8c91ef2812b048a0594c273ac94a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/5.png using Guid(e7b8c91ef2812b048a0594c273ac94a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be07a8a47c3defd8466e4ca85ab4d9') in 0.018344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.535189 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/GC/5.png
-  artifactKey: Guid(479b2175ff5b6c14998c0541363b9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/GC/5.png using Guid(479b2175ff5b6c14998c0541363b9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb09579ce157bb9ac05fb914c1c95470') in 0.066192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/5.png
-  artifactKey: Guid(5e321be7bff4e6b43ab272db9bb5e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/5.png using Guid(5e321be7bff4e6b43ab272db9bb5e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bf7d3ed3086cda3d21fb68a3af9c2e') in 0.070991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LA/5.png
-  artifactKey: Guid(8911f7d46a3d3c44f8d8a2f190a4a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LA/5.png using Guid(8911f7d46a3d3c44f8d8a2f190a4a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d97b05aef84a1d0a8fde15ab2675e9d') in 0.066994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/5.png
-  artifactKey: Guid(1b5453a176ed4b4409994367f5357116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/5.png using Guid(1b5453a176ed4b4409994367f5357116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed5b69320e1f5e86bcdaaa87d29b9dd') in 0.053025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EA/5.png
-  artifactKey: Guid(386fe454bdf73494ab93e0c2cc004795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EA/5.png using Guid(386fe454bdf73494ab93e0c2cc004795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e782c5224d4a782066acb35ba08cdb7a') in 0.068953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CR/5.png
-  artifactKey: Guid(bd99df91fefdf25479d66590e879017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CR/5.png using Guid(bd99df91fefdf25479d66590e879017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a012be68436fc13ad3fee1570a06142') in 0.055882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/5.png
-  artifactKey: Guid(79c4cb015ded81d4ea289b750d9e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/5.png using Guid(79c4cb015ded81d4ea289b750d9e6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ecc942fd01481f354a0a104f45ae4e') in 0.063165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/5.png
-  artifactKey: Guid(b9f0e76acbe89644e97fa2577b1043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/5.png using Guid(b9f0e76acbe89644e97fa2577b1043fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b60ae3cd81e9b954940f786fe21e72') in 0.049967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HS/5.png
-  artifactKey: Guid(e02aa9a5f5977e748b730cd4dd938b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HS/5.png using Guid(e02aa9a5f5977e748b730cd4dd938b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0354bac3c47b8ad2e88060d0e30a15') in 0.047947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MA/5.png
-  artifactKey: Guid(8516538799bbbce4caed65611b337b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MA/5.png using Guid(8516538799bbbce4caed65611b337b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5d1cde6d08dc5553bffd769b31f998') in 0.064853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-2/5.png
-  artifactKey: Guid(a7e6e2867e0e5dc4a9e9980a09c56690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-2/5.png using Guid(a7e6e2867e0e5dc4a9e9980a09c56690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4b9881de85f26cb90486d1d42c7d9d') in 0.053425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.582903 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/6.png
-  artifactKey: Guid(6c6b93acd22c3ed48b022c58440539d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/6.png using Guid(6c6b93acd22c3ed48b022c58440539d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13d8407c894ed844531013081a7c2b') in 0.015514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/MC/6.png
-  artifactKey: Guid(4325b2187d2c0b54dbe9eb1aaec36ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/MC/6.png using Guid(4325b2187d2c0b54dbe9eb1aaec36ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d4bde8b33c9888d805b75fc61e31d0') in 0.013090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/6.png
-  artifactKey: Guid(a101afc0eec18d943af86597358e3e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/6.png using Guid(a101afc0eec18d943af86597358e3e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8854a9c0d28d71c876da069726cc43ba') in 0.010377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/6.png
-  artifactKey: Guid(711d197b81f03294692a82ded37b91b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/6.png using Guid(711d197b81f03294692a82ded37b91b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e661c130444a6c60501fb01ac786c3fd') in 0.014058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CR/6.png
-  artifactKey: Guid(901fad2f9f3506d479d0b750e7ef614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CR/6.png using Guid(901fad2f9f3506d479d0b750e7ef614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14366721d3f2e2f1b0fb5c744f8509dc') in 0.010535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-1/6.png
-  artifactKey: Guid(146a9e7b3106a9f43a303610ded64ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-1/6.png using Guid(146a9e7b3106a9f43a303610ded64ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931f57ad8d730540cfbee42b8187e260') in 0.015435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EN/6.png
-  artifactKey: Guid(0e7f23f4284ecd14a9fa574c8ab18c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EN/6.png using Guid(0e7f23f4284ecd14a9fa574c8ab18c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0240ea3b6256c66fa8a2c220d220ed') in 0.012217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/FO-3/6.png
-  artifactKey: Guid(71c270bd024e54742adb7dcdbfad2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/FO-3/6.png using Guid(71c270bd024e54742adb7dcdbfad2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0de6d63af8061b6112a0bb2b1864aa9') in 0.015081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/6.png
-  artifactKey: Guid(868a1a1e2d96d5440865fd23d40c8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/6.png using Guid(868a1a1e2d96d5440865fd23d40c8a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b588b107fed4b04ad725ba394b95cb5') in 0.012936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CB/6.png
-  artifactKey: Guid(5ad8ab66a9be41649903cd0134a6e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CB/6.png using Guid(5ad8ab66a9be41649903cd0134a6e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b68a6d2b4713c6ec30f0a3ee77efde2') in 0.008804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/DR/6.png
-  artifactKey: Guid(92e38344acd999e45a454bd16de7d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/DR/6.png using Guid(92e38344acd999e45a454bd16de7d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe27c0424b83f811a0c832f1285dbb73') in 0.020380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.302692 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/GC/6.png
-  artifactKey: Guid(92a8ac8d4a2234149958bf93945b4535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/GC/6.png using Guid(92a8ac8d4a2234149958bf93945b4535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f564d95f4bfb5ca94412b128d8ec8fa') in 0.068163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EL/6.png
-  artifactKey: Guid(375430c36d2cf0646ad74f78dae8a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EL/6.png using Guid(375430c36d2cf0646ad74f78dae8a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a1aeb3fde9877e40ce0f2b3f6a4abe') in 0.071060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EX/6.png
-  artifactKey: Guid(a101afc0eec18d943af86597358e3e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EX/6.png using Guid(a101afc0eec18d943af86597358e3e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6261a2ff640f4e2a798ba3a1aac531bf') in 0.054017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LP/6.png
-  artifactKey: Guid(711d197b81f03294692a82ded37b91b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LP/6.png using Guid(711d197b81f03294692a82ded37b91b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a56b2f3e281f48d53ceaa2c63186b7') in 0.056485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/CR/6.png
-  artifactKey: Guid(901fad2f9f3506d479d0b750e7ef614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/CR/6.png using Guid(901fad2f9f3506d479d0b750e7ef614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21b40be51d8fa335723e271d89ffa8c') in 0.050599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HE/6.png
-  artifactKey: Guid(6c6b93acd22c3ed48b022c58440539d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HE/6.png using Guid(6c6b93acd22c3ed48b022c58440539d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0de8da1fef8b417ab0f887e3bcae744') in 0.059693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/6.png
-  artifactKey: Guid(3ad64a191c5af984abf919734e9053c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/6.png using Guid(3ad64a191c5af984abf919734e9053c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c76f0115eee672c1302dc1b44b5661') in 0.055051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/BG/6.png
-  artifactKey: Guid(9d19781cf3e6b6f4b9ec6603d906738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/BG/6.png using Guid(9d19781cf3e6b6f4b9ec6603d906738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241588d9b447afa5236cc061f4cac022') in 0.053778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/ENA/6.png
-  artifactKey: Guid(2023be8c2ba293149870de0901087b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/ENA/6.png using Guid(2023be8c2ba293149870de0901087b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c78318744231fb8997c0e256cc7c92') in 0.056884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/LM/6.png
-  artifactKey: Guid(4294b8e1786784e4394bd496f8c56990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/LM/6.png using Guid(4294b8e1786784e4394bd496f8c56990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41659ffd212da32e3a72e6d7f6a6056') in 0.056777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/EA/6.png
-  artifactKey: Guid(274ab8d5f3b0d57438fca0df8d1faf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/EA/6.png using Guid(274ab8d5f3b0d57438fca0df8d1faf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47efbff2402e47f1856fde83c5030ad') in 0.049740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.464080 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/HL/1.png
-  artifactKey: Guid(4cde01b7e7c126a458f79675127d9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/HL/1.png using Guid(4cde01b7e7c126a458f79675127d9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4bcbdb0e7589580a717b0ee68365c8') in 0.070923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.485154 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/NO-1.png
-  artifactKey: Guid(8d53a8934fc840c4abd32c64837aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/NO-1.png using Guid(8d53a8934fc840c4abd32c64837aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ef740725d523cf4e7279b0641410c') in 0.020395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.117866 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-1/NO-1.png
-  artifactKey: Guid(8d53a8934fc840c4abd32c64837aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-1/NO-1.png using Guid(8d53a8934fc840c4abd32c64837aa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bb4b4f27bf38d01bcce78e0dced3ef') in 0.300066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.997620 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/DR/2.png
-  artifactKey: Guid(f61c3af356c69844fba9042845983afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/DR/2.png using Guid(f61c3af356c69844fba9042845983afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d9596c14e31d4106a8566cd413efde') in 0.084896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/NO-2/NO-2.png
-  artifactKey: Guid(3f6b0c8291eb9684dbf0a7f3a7aa8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/NO-2/NO-2.png using Guid(3f6b0c8291eb9684dbf0a7f3a7aa8baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8437d3ad18881749d5d487e07b23bb8a') in 0.270172 seconds 
+  path: Assets/Prefabs/Map/Mask_Town.prefab
+  artifactKey: Guid(0ee76d2f8f33c854f899608e303e6c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Map/Mask_Town.prefab using Guid(0ee76d2f8f33c854f899608e303e6c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5275bc0ad31da093291b3b1a338baf21') in 0.051396 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -15,7 +15,7 @@ C:/Users/U19713/Downloads/WarhammerQuest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60305
+61264
 Successfully changed project path to: C:/Users/U19713/Downloads/WarhammerQuest
 C:/Users/U19713/Downloads/WarhammerQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/U19713/Downloads/WarhammerQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017337 seconds.
+Registered in 0.008556 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (762ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (654ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (481ms)
-			LoadAssemblies (156ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (288ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
+				InitializePlatformSupportModulesInManaged (68ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016642 seconds.
+Registered in 0.005139 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -117,31 +117,31 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.242 seconds
+- Completed reload, in  1.334 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2243ms)
-		BeginReloadAssembly (223ms)
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (243ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (1901ms)
-			LoadAssemblies (1040ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (502ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (518ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (268ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (269ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4265 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (100.6 KB). Loaded Objects now: 4728.
-Memory consumption went from 154.7 MB to 154.6 MB.
-Total: 3.573300 ms (FindLiveObjects: 0.369900 ms CreateObjectMapping: 0.266000 ms MarkObjects: 2.836200 ms  DeleteObjects: 0.100400 ms)
+Unloading 28 unused Assets / (90.4 KB). Loaded Objects now: 4731.
+Memory consumption went from 154.9 MB to 154.8 MB.
+Total: 4.843700 ms (FindLiveObjects: 0.657800 ms CreateObjectMapping: 0.512900 ms MarkObjects: 3.554900 ms  DeleteObjects: 0.117100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,1713 +170,943 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 916934.254008 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.007116 seconds 
+  Time since last request: 1180206.957649 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/3.png
+  artifactKey: Guid(0802f0be162ee7247b505240d3954ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/3.png using Guid(0802f0be162ee7247b505240d3954ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce45c2cc8fdbbdb7532f10216f3e8ef') in 0.098814 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.241329 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(6c47d1307b8e62d4997a9dff34730c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(6c47d1307b8e62d4997a9dff34730c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f17c5b3ce35a86888d8cee1cefa1fb0') in 0.001970 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/4.png
+  artifactKey: Guid(7e5e349e1dc0199438b16424849f1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/4.png using Guid(7e5e349e1dc0199438b16424849f1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb5bc8b531649678216964a14fc8109') in 0.032146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.816941 seconds.
-  path: Assets/Resources/DarkSecrets
-  artifactKey: Guid(1d79dd20c23651b438cc494f6b37211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets using Guid(1d79dd20c23651b438cc494f6b37211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd214e5d4c40b2a8dd94c06b768c0605c') in 0.012935 seconds 
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2
+  artifactKey: Guid(b1a14d592f691e249927c2bd76867a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2 using Guid(b1a14d592f691e249927c2bd76867a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21b4dbeee512e9b6ab8115316174971') in 0.003097 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 949.452321 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png
-  artifactKey: Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png using Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76094ab55d64a95620500dc1e2d32111') in 0.097924 seconds 
+  Time since last request: 30.166158 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/1.png
+  artifactKey: Guid(1ec8404eff2cb8541b9b445de1c284bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/1.png using Guid(1ec8404eff2cb8541b9b445de1c284bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7513ead01d8f2289b8fb87d359472608') in 0.014773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.408067 seconds.
-  path: Assets/Images/warhammer_logo.png
-  artifactKey: Guid(6c16a3e7394832840839a082f2e52772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/warhammer_logo.png using Guid(6c16a3e7394832840839a082f2e52772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d96cdeac87494251b3d5786b4360ecc') in 0.025263 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MA/1.png
+  artifactKey: Guid(357d82822866bd544aba2657d4c4335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MA/1.png using Guid(357d82822866bd544aba2657d4c4335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2affbcdf176ff033a16bc3eb73fd18') in 0.016292 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/DarkSecrets/Icons/VALK.png
-  artifactKey: Guid(af172d0b9d588b342bf7bee441999521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Icons/VALK.png using Guid(af172d0b9d588b342bf7bee441999521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac86b748cac0484129dd0924c95d814') in 0.027340 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/DR/1.png
+  artifactKey: Guid(007dc72a77d43794c94abcae707ca630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/DR/1.png using Guid(007dc72a77d43794c94abcae707ca630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ad637b5d08e407b670e5919126798e') in 0.017155 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok@2x.png
-  artifactKey: Guid(be340a165cb9c8d4cb50f1deeb51d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok@2x.png using Guid(be340a165cb9c8d4cb50f1deeb51d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a799b79b9ce446f5da686d1bcb7067') in 0.016198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png
-  artifactKey: Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png using Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9655b350db95818998b9bf8f59218b8') in 0.016425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok.png
-  artifactKey: Guid(d4780dc1205c7c7478c970d8c61d24e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/stepok.png using Guid(d4780dc1205c7c7478c970d8c61d24e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d60889051708568ff854ea85acecb18') in 0.019501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.261647 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png
-  artifactKey: Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png using Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f770dd020cb243793e88a8cf60be0244') in 0.025387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 447.350921 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(45b94f43df4fac345b6b17c0b8f91b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(45b94f43df4fac345b6b17c0b8f91b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d73cae60434f60ef98a3bdedcd81b2c') in 0.002617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.674155 seconds.
-  path: Assets/Scripts/DataPersistance
-  artifactKey: Guid(c1ccf259691a18749bba1c979b2a4d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataPersistance using Guid(c1ccf259691a18749bba1c979b2a4d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118fbc7571ef511dd139cc9d208b5cbb') in 0.001951 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005735 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1058ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 4747.
-Memory consumption went from 155.5 MB to 155.4 MB.
-Total: 4.077000 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.261200 ms MarkObjects: 3.361800 ms  DeleteObjects: 0.100800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006556 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1133ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4750.
-Memory consumption went from 155.5 MB to 155.4 MB.
-Total: 2.886600 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.188800 ms MarkObjects: 2.354400 ms  DeleteObjects: 0.059100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004539 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (364ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 4753.
-Memory consumption went from 155.5 MB to 155.4 MB.
-Total: 3.137400 ms (FindLiveObjects: 0.293700 ms CreateObjectMapping: 0.193400 ms MarkObjects: 2.579600 ms  DeleteObjects: 0.069800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005647 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1094ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4756.
-Memory consumption went from 155.5 MB to 155.5 MB.
-Total: 3.092800 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.287600 ms MarkObjects: 2.379900 ms  DeleteObjects: 0.068400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 833.879917 seconds.
-  path: Assets/Scripts/DataPersistance/GameData.cs
-  artifactKey: Guid(bf8a743497f9f6f46a8d1c0ca24724c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataPersistance/GameData.cs using Guid(bf8a743497f9f6f46a8d1c0ca24724c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92be830518843f322e658ccd4bdb58a') in 0.011840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.696558 seconds.
-  path: Assets/Scripts/DataPersistance/PersistentVariables.cs
-  artifactKey: Guid(666e45aae70eaa542833d213012431cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataPersistance/PersistentVariables.cs using Guid(666e45aae70eaa542833d213012431cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4191445c8d8e8b2b09ee54aceab3ba12') in 0.002014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.973736 seconds.
-  path: Assets/Scripts/DataPersistance/DataPersistenceManager.cs
-  artifactKey: Guid(28e47f7942cf8974fa266ed1c6659bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataPersistance/DataPersistenceManager.cs using Guid(28e47f7942cf8974fa266ed1c6659bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fc9c1661d1bfd0081498ac3f6c365e') in 0.001615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.903711 seconds.
-  path: Assets/Scripts/Villain
-  artifactKey: Guid(9852db235c1cb984c8c87233f6df09b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Villain using Guid(9852db235c1cb984c8c87233f6df09b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931ab3421c8d4c82ea08343f806c2513') in 0.001645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.357540 seconds.
-  path: Assets/Scripts/Villain/VillainMenu.cs
-  artifactKey: Guid(0627b943457ebb346891a35e2130ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Villain/VillainMenu.cs using Guid(0627b943457ebb346891a35e2130ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f222bab3f30a47c72a79fa56c73e1f') in 0.001628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.057414 seconds.
-  path: Assets/Scripts/Villain/Villain.cs
-  artifactKey: Guid(2902acb5f8045ed4c8f7a9a31ea17100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Villain/Villain.cs using Guid(2902acb5f8045ed4c8f7a9a31ea17100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc818b5cbd0f06c685ec1de5336e1f18') in 0.002256 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004761 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (888ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (374ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4759.
-Memory consumption went from 155.5 MB to 155.5 MB.
-Total: 3.536100 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.313100 ms MarkObjects: 2.825900 ms  DeleteObjects: 0.061400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007341 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (833ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (357ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4762.
-Memory consumption went from 155.5 MB to 155.5 MB.
-Total: 3.361400 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.779600 ms  DeleteObjects: 0.069100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1015ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (779ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (364ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4765.
-Memory consumption went from 155.5 MB to 155.5 MB.
-Total: 3.589300 ms (FindLiveObjects: 0.357900 ms CreateObjectMapping: 0.235100 ms MarkObjects: 2.908700 ms  DeleteObjects: 0.086900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005339 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1217ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (975ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4768.
-Memory consumption went from 155.5 MB to 155.5 MB.
-Total: 3.324300 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.213600 ms MarkObjects: 2.709400 ms  DeleteObjects: 0.074900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005201 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1111ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (356ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4771.
-Memory consumption went from 155.6 MB to 155.5 MB.
-Total: 3.159700 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.202500 ms MarkObjects: 2.575000 ms  DeleteObjects: 0.069900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004647 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1067ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (844ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (363ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 4774.
-Memory consumption went from 155.6 MB to 155.5 MB.
-Total: 3.873200 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.261900 ms MarkObjects: 3.125200 ms  DeleteObjects: 0.081800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1647.308493 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1cb6b40112099294df2b8be85e7d00') in 0.009168 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004796 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1160ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (940ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (468ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4777.
-Memory consumption went from 155.6 MB to 155.5 MB.
-Total: 3.945700 ms (FindLiveObjects: 0.398200 ms CreateObjectMapping: 0.359900 ms MarkObjects: 3.109000 ms  DeleteObjects: 0.077500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004727 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.111 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1112ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.4 KB). Loaded Objects now: 4780.
-Memory consumption went from 155.6 MB to 155.5 MB.
-Total: 4.099900 ms (FindLiveObjects: 0.457300 ms CreateObjectMapping: 0.334900 ms MarkObjects: 3.152100 ms  DeleteObjects: 0.153800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 64.938935 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f07293417978a937b1689395407edc') in 0.010162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.881035 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d20afae745eec3fd578752be756eb4') in 0.002684 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007365 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.202 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1203ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (975ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (467ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4783.
-Memory consumption went from 155.6 MB to 155.6 MB.
-Total: 4.357500 ms (FindLiveObjects: 0.489200 ms CreateObjectMapping: 0.276500 ms MarkObjects: 3.482900 ms  DeleteObjects: 0.106600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005025 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (959ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.4 KB). Loaded Objects now: 4786.
-Memory consumption went from 155.6 MB to 155.6 MB.
-Total: 3.684700 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.301000 ms MarkObjects: 2.882500 ms  DeleteObjects: 0.097300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005494 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1223ms)
-		BeginReloadAssembly (162ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (952ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4789.
-Memory consumption went from 155.6 MB to 155.6 MB.
-Total: 3.394800 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.244900 ms MarkObjects: 2.743900 ms  DeleteObjects: 0.073700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006781 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1164ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (410ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4792.
-Memory consumption went from 155.6 MB to 155.6 MB.
-Total: 3.504800 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.245400 ms MarkObjects: 2.848600 ms  DeleteObjects: 0.080500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 329.690675 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b4a8f45dfba5668110ea68c02d86d') in 0.010255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.025027 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6092886279d158c79b65a1c912aab3dc') in 0.001739 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004859 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1206ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (991ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (482ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4795.
-Memory consumption went from 155.6 MB to 155.6 MB.
-Total: 3.508800 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.235400 ms MarkObjects: 2.852900 ms  DeleteObjects: 0.089900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006155 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1115ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.8 KB). Loaded Objects now: 4798.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.483700 ms (FindLiveObjects: 0.686200 ms CreateObjectMapping: 0.285400 ms MarkObjects: 2.423500 ms  DeleteObjects: 0.087900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006005 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1156ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (407ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4801.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.857900 ms (FindLiveObjects: 0.533200 ms CreateObjectMapping: 0.391300 ms MarkObjects: 2.842100 ms  DeleteObjects: 0.090100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005952 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1133ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (409ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (61.0 KB). Loaded Objects now: 4804.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.637700 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.227900 ms MarkObjects: 2.976300 ms  DeleteObjects: 0.068800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005575 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1186ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 4807.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.786100 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.217500 ms MarkObjects: 3.041600 ms  DeleteObjects: 0.139400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005883 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.237 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1011ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.8 KB). Loaded Objects now: 4810.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.511200 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.264200 ms MarkObjects: 2.782000 ms  DeleteObjects: 0.079400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006423 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.275 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1276ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (75.9 KB). Loaded Objects now: 4813.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 4.551600 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.300300 ms MarkObjects: 3.457700 ms  DeleteObjects: 0.360500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005723 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1216ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (306ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (472ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (304ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (76.0 KB). Loaded Objects now: 4816.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 4.237500 ms (FindLiveObjects: 0.484200 ms CreateObjectMapping: 0.339500 ms MarkObjects: 3.252500 ms  DeleteObjects: 0.160000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005498 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1072ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (548ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (60.9 KB). Loaded Objects now: 4819.
-Memory consumption went from 155.7 MB to 155.6 MB.
-Total: 3.643100 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.267100 ms MarkObjects: 2.926300 ms  DeleteObjects: 0.075600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 898.014983 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(061474ed9e43e8341bc7f9aeb8d324e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a82c8087fb920aa4788d30184aff50') in 0.011864 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005111 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\U19713\Downloads\WarhammerQuest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1240ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (76.0 KB). Loaded Objects now: 4822.
-Memory consumption went from 155.7 MB to 155.7 MB.
-Total: 3.813300 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.261600 ms MarkObjects: 3.076100 ms  DeleteObjects: 0.089600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 65.090870 seconds.
-  path: Assets/Resources/DarkSecrets/Cards
-  artifactKey: Guid(fb1c1203210b4bb4f8d0a69479cdadab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards using Guid(fb1c1203210b4bb4f8d0a69479cdadab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7716eca16541304b0a46c13df5fa5a1f') in 0.012306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.191042 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-1
-  artifactKey: Guid(4efaa50086b44484084df65843f03e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-1 using Guid(4efaa50086b44484084df65843f03e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4790d11e3f7bb06f5f74bb2db72dba24') in 0.002728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.125186 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-1/1.png
-  artifactKey: Guid(f15a2250873f8ec4799ac209fce0c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-1/1.png using Guid(f15a2250873f8ec4799ac209fce0c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb3781e76227bd449413cbc9e747589') in 0.075161 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HS/1.png
+  artifactKey: Guid(7fba69d429966ce4a90aebcda2b8a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HS/1.png using Guid(7fba69d429966ce4a90aebcda2b8a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dad6c6df847b6ab61a4b3773d0bb17') in 0.020138 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-1/6.png
-  artifactKey: Guid(dd8e32ebb9ad80c44bf07ec543b6e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-1/6.png using Guid(dd8e32ebb9ad80c44bf07ec543b6e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea2e47a54c693a0ed21929657347690') in 0.036388 seconds 
+  path: Assets/Images/CampaignEventCards/A/A-13.png
+  artifactKey: Guid(d5bdf487ff9ea7c4da4a93b9204cdeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-13.png using Guid(d5bdf487ff9ea7c4da4a93b9204cdeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ceb903b78e56c1ebd4624c3d8a07f') in 0.067633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CB/1.png
+  artifactKey: Guid(5f4c8e3a19a7fc345b28d4de344849cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CB/1.png using Guid(5f4c8e3a19a7fc345b28d4de344849cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60429b5608427f0f5c80c140526b7d75') in 0.013549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/1.png
+  artifactKey: Guid(a31a7deb88a95574a9db019b5b24df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/1.png using Guid(a31a7deb88a95574a9db019b5b24df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4223a86b82d58882bc5fda5db73a70a') in 0.010980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LM/1.png
+  artifactKey: Guid(bff6bab3135297a489da62223de5ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LM/1.png using Guid(bff6bab3135297a489da62223de5ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e47b2f98c32b3a783634293ecb7d051') in 0.012330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PhotoViewer/Photos/20200818_130548.jpg
+  artifactKey: Guid(02bf2be8255a4a84dbff7d76adabb1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PhotoViewer/Photos/20200818_130548.jpg using Guid(02bf2be8255a4a84dbff7d76adabb1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f508dadd0f71f63252e7db276c9d1e') in 0.354548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/1.png
+  artifactKey: Guid(f0b2d8d74d38f4d4f87237bc0f71ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/1.png using Guid(f0b2d8d74d38f4d4f87237bc0f71ab87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d26057176d3fb7921c8a074d9a7eb4a') in 0.020950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CR/1.png
+  artifactKey: Guid(29496c673710fff458caf3811d6e7a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CR/1.png using Guid(29496c673710fff458caf3811d6e7a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea990fc9433cebc69e1117586ca7e1e') in 0.021281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/1.png
+  artifactKey: Guid(7abc0bc63831e6f49802b611e5f4ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/1.png using Guid(7abc0bc63831e6f49802b611e5f4ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0885698781160301e4fe25777d0ed31') in 0.014094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/1.png
+  artifactKey: Guid(5e46091e50b04324c8450847b9329d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/1.png using Guid(5e46091e50b04324c8450847b9329d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4c99ce48e1234f885258b9a945519e') in 0.024221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-01.png
+  artifactKey: Guid(ae8757d32b927d24ba6d538518c30703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-01.png using Guid(ae8757d32b927d24ba6d538518c30703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92aadb041bf935e48572e8b448f55895') in 0.058936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BG/1.png
+  artifactKey: Guid(8e4b090b041ca634191b9296277612a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BG/1.png using Guid(8e4b090b041ca634191b9296277612a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f532b99c62e5dd3c2b997ce938310445') in 0.019442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-2/1.png
+  artifactKey: Guid(2d83e78056c42704d9300aa15ed2f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-2/1.png using Guid(2d83e78056c42704d9300aa15ed2f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15a04f32334e72b3f8a0f6d0e1319cf') in 0.011355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/1.png
+  artifactKey: Guid(3a5819c0648d3d8438fbfcde6bba0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/1.png using Guid(3a5819c0648d3d8438fbfcde6bba0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61541a53dbbea66a03164f0024bf2c83') in 0.016268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-14.png
+  artifactKey: Guid(a4a76ad59c133b14bb6cf484ddf95e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-14.png using Guid(a4a76ad59c133b14bb6cf484ddf95e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804f626cf9acaef7a0bb9251713a3c51') in 0.060576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/OG/1.png
+  artifactKey: Guid(4fe001c2c27206d48b79dfbe1e4b8cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/OG/1.png using Guid(4fe001c2c27206d48b79dfbe1e4b8cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5a7355ed4afc7c3a4ab1eed7d9fda6') in 0.025129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HE/1.png
+  artifactKey: Guid(f23fae49be7932a42a1bae92768946a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HE/1.png using Guid(f23fae49be7932a42a1bae92768946a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88d526c55b2811173897beee76963f2') in 0.020166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.678408 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EX/1.png
+  artifactKey: Guid(96da7a2d3c684b34299365001ef5bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EX/1.png using Guid(96da7a2d3c684b34299365001ef5bab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395daaa32580714d8accccef8268f21f') in 0.069301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/DR/1.png
+  artifactKey: Guid(007dc72a77d43794c94abcae707ca630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/DR/1.png using Guid(007dc72a77d43794c94abcae707ca630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e3041b8624a59e72cd4c88c70735d2') in 0.065224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SG/1.png
+  artifactKey: Guid(f822c67d2b5d098469d875c1d188f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SG/1.png using Guid(f822c67d2b5d098469d875c1d188f30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368674d83e1831816da42f41afd66542') in 0.055586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EA/1.png
+  artifactKey: Guid(61fdd939e30e46a4ab5cf6489f5382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EA/1.png using Guid(61fdd939e30e46a4ab5cf6489f5382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee20274f860dd8a6d131165d029a4954') in 0.053271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EN/1.png
+  artifactKey: Guid(c02207e0de2904446999ab174f9ac053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EN/1.png using Guid(c02207e0de2904446999ab174f9ac053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a51eaa917aa3cf6cbc8bd2dcb05e138') in 0.061287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-3/1.png
+  artifactKey: Guid(927af3ed4a02b244cba03dfb9ddd25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-3/1.png using Guid(927af3ed4a02b244cba03dfb9ddd25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55c0dcae66ef0f839c9bb62ae7a2c9c') in 0.051956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/1.png
+  artifactKey: Guid(5e46091e50b04324c8450847b9329d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/1.png using Guid(5e46091e50b04324c8450847b9329d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087046c826d64ba019b3ee9505fbd547') in 0.054075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/1.png
+  artifactKey: Guid(3a5819c0648d3d8438fbfcde6bba0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/1.png using Guid(3a5819c0648d3d8438fbfcde6bba0878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3f336091fd678de1ec754e14b23267') in 0.051221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/OG/1.png
+  artifactKey: Guid(4fe001c2c27206d48b79dfbe1e4b8cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/OG/1.png using Guid(4fe001c2c27206d48b79dfbe1e4b8cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da5c56103ac74a12686cf6ffe7eb6d') in 0.050764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/1.png
+  artifactKey: Guid(1ec8404eff2cb8541b9b445de1c284bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/1.png using Guid(1ec8404eff2cb8541b9b445de1c284bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cfb6525e191fc579b3c22c514debb6') in 0.052563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.030619 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EL/2.png
+  artifactKey: Guid(cbfdccfcc7535f34d80b1441d61c9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EL/2.png using Guid(cbfdccfcc7535f34d80b1441d61c9657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59afab84fdd58d790f26567bc9fa3da8') in 0.020791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-2/2.png
+  artifactKey: Guid(36e78cc8e46fd134a810eae96e8da931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/2.png using Guid(36e78cc8e46fd134a810eae96e8da931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d214118f44233f3a94139110702556') in 0.014854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/2.png
+  artifactKey: Guid(b12e65a5d79b8464b8ce45a676d44121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/2.png using Guid(b12e65a5d79b8464b8ce45a676d44121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122f3b5697eb8e985a7b2b947d6485e8') in 0.012091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/2.png
+  artifactKey: Guid(f8c0c1a2ca4b65d47a27841b7437a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/2.png using Guid(f8c0c1a2ca4b65d47a27841b7437a08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91a34e3373b3ef4f4d214f1837e84ed') in 0.015710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/2.png
+  artifactKey: Guid(a8df35451570d0c4bbebf41ce91267b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/2.png using Guid(a8df35451570d0c4bbebf41ce91267b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feb8a87acdfd5b667f579538954165c') in 0.012774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-26.png
+  artifactKey: Guid(9456103d9f38814458861fc88bb21441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-26.png using Guid(9456103d9f38814458861fc88bb21441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e710ea4550209fb7952eef6cf6be45') in 0.053984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/2.png
+  artifactKey: Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/2.png using Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc75638b78f9ec1a8c114cf793b7bed') in 0.010690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/2.png
+  artifactKey: Guid(db3c69c7be76fe74a96e7d36d898a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/2.png using Guid(db3c69c7be76fe74a96e7d36d898a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01787fb94b930a2cfc297ba9465d0e69') in 0.011135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-23.png
+  artifactKey: Guid(af57e5e94363bbd4584962ee11367f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-23.png using Guid(af57e5e94363bbd4584962ee11367f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a000743787d980d43c4a7c76eaf78c0') in 0.047755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SG/2.png
+  artifactKey: Guid(fe15575e66bae9e4a8cd9fe80c219908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SG/2.png using Guid(fe15575e66bae9e4a8cd9fe80c219908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d82a2fa00db7f97cc82df143e92bff') in 0.030007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CB/2.png
+  artifactKey: Guid(1a46af7b399c2af4a8e17e4553f042d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CB/2.png using Guid(1a46af7b399c2af4a8e17e4553f042d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8adc22e5fac26c7bf5441f3bd661ea1') in 0.012028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/2.png
+  artifactKey: Guid(3c7482573d076ab41ac3c652bc68e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/2.png using Guid(3c7482573d076ab41ac3c652bc68e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f548a44d090d526e5b75676b5cd789') in 0.023515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/DR/2.png
+  artifactKey: Guid(f61c3af356c69844fba9042845983afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/DR/2.png using Guid(f61c3af356c69844fba9042845983afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbcc6615b83c3c0635cd2b90df3230b') in 0.013527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-20.png
+  artifactKey: Guid(c977861ab0d95154b84b0cd770b83f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-20.png using Guid(c977861ab0d95154b84b0cd770b83f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6838b121b81a7f19a0cfff1e2b0552') in 0.046031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.912450 seconds.
+  path: Assets/Images/CampaignEventCards/A/A-28.png
+  artifactKey: Guid(f31b80739462a944599f81fa5c0cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/A/A-28.png using Guid(f31b80739462a944599f81fa5c0cecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d6a73f20de4a68b946276a787e7735') in 0.057814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295946 seconds.
+  path: Assets/Resources/DarkSecrets/Icons/AS-2.png
+  artifactKey: Guid(19ca0c624aee1eb49bdd3d832b72b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Icons/AS-2.png using Guid(19ca0c624aee1eb49bdd3d832b72b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96228314bb8ddb3e583d3b09f15beb2') in 0.028739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Images/CampaignEventCards/B/B-02.png
+  artifactKey: Guid(03991d5d3082d424d84face21ae5097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/CampaignEventCards/B/B-02.png using Guid(03991d5d3082d424d84face21ae5097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c23eeecbd970464d908933523660e') in 0.047950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.487474 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/FO-2.png
+  artifactKey: Guid(bfb55687fc58eb449ab948d4e3288784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/FO-2.png using Guid(bfb55687fc58eb449ab948d4e3288784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c992997c6b11f1f231523094c2dfa18') in 0.016517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.371208 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HL/2.png
+  artifactKey: Guid(9ebe575fa50b3284696cbe93531db516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HL/2.png using Guid(9ebe575fa50b3284696cbe93531db516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bad3d93721dbff94afef9a0035b467') in 0.074415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EX/2.png
+  artifactKey: Guid(d9cbbc6919a094641bdc8a4c8d44a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EX/2.png using Guid(d9cbbc6919a094641bdc8a4c8d44a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4be63941c17f4cd349c7f589aa2cdb') in 0.059391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/2.png
+  artifactKey: Guid(b12e65a5d79b8464b8ce45a676d44121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/2.png using Guid(b12e65a5d79b8464b8ce45a676d44121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c139c802e22a78508bafbec2c932453') in 0.055158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/2.png
+  artifactKey: Guid(ff1931a5aa0a4184f94b7769d7b665d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/2.png using Guid(ff1931a5aa0a4184f94b7769d7b665d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c837b1183f0c721c875e690aac39d4') in 0.049404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/2.png
+  artifactKey: Guid(a8df35451570d0c4bbebf41ce91267b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/2.png using Guid(a8df35451570d0c4bbebf41ce91267b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e152377396154362f52984e14ef3d5') in 0.059949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/2.png
+  artifactKey: Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/2.png using Guid(0b411939c479b3e4ba8278eaf632b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacd096b47bc1798dbfd591e7e52e12b') in 0.049582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BA/2.png
+  artifactKey: Guid(ccd0702fc3b23e04987d21f8c682b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BA/2.png using Guid(ccd0702fc3b23e04987d21f8c682b3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee9fa04eca6bbe2efcbcc88b575242') in 0.049117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MC/2.png
+  artifactKey: Guid(ce4ab0ab1503061418f8e495de28c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MC/2.png using Guid(ce4ab0ab1503061418f8e495de28c4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6f320e582179d5115c35f9b4ddb3e5') in 0.057069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/OG/2.png
+  artifactKey: Guid(34d1f4ba35fc3764d932ddf933d4696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/OG/2.png using Guid(34d1f4ba35fc3764d932ddf933d4696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c5d8920d2d2bbee63e085251efda55') in 0.049436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-1/2.png
+  artifactKey: Guid(9c6f8d2e9e0df994aa9dbb965f598e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/2.png using Guid(9c6f8d2e9e0df994aa9dbb965f598e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6462df1f9e3019258889d3c55bc178c1') in 0.052437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/2.png
+  artifactKey: Guid(eddd73d27a158254da84b80602770322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/2.png using Guid(eddd73d27a158254da84b80602770322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ff4cc68a7b28f31adb5e02de9dc8b9') in 0.050315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.734437 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/3.png
+  artifactKey: Guid(d64ded034ad0a7c498633a14ba33a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/3.png using Guid(d64ded034ad0a7c498633a14ba33a791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d54b6123b26b08869d1ab8639c1614') in 0.017740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/3.png
+  artifactKey: Guid(253910853c9ecbd40b8b43377902ec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/3.png using Guid(253910853c9ecbd40b8b43377902ec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e131e10703e653ef5640123a2dc0da') in 0.013048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BA/3.png
+  artifactKey: Guid(ce726a6d81c2b5d4fa5c46d797b52e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BA/3.png using Guid(ce726a6d81c2b5d4fa5c46d797b52e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715902d452004b191ecb7475b56d0f5') in 0.009966 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Resources/DarkSecrets/Cards/AS-1/5.png
-  artifactKey: Guid(b00ad357784c49f48bfcaaf0ed91929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DarkSecrets/Cards/AS-1/5.png using Guid(b00ad357784c49f48bfcaaf0ed91929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0f7e1ff566844f19a0ecb9968140e9') in 0.026044 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/3.png
+  artifactKey: Guid(31b84034cd4cec54aa501874db67f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/3.png using Guid(31b84034cd4cec54aa501874db67f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac0449869b464fc87e3660727a21df1') in 0.019162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-3/3.png
+  artifactKey: Guid(517343e7c079774409131fcfc32b75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-3/3.png using Guid(517343e7c079774409131fcfc32b75da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d79d990831dc56a059ae35ed106bc0') in 0.010173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/3.png
+  artifactKey: Guid(572ff4ae52b68434993c0aba13e5dc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/3.png using Guid(572ff4ae52b68434993c0aba13e5dc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e163f24f331bd3d69d467633efa0eb') in 0.013801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LP/3.png
+  artifactKey: Guid(5a3ec4d3befcf3b46a7fd5ca7cfd7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LP/3.png using Guid(5a3ec4d3befcf3b46a7fd5ca7cfd7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55e61faa22caa210cb8427b0915fb78') in 0.009741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HL/3.png
+  artifactKey: Guid(b530d42815b268e4491e581c4dd909e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HL/3.png using Guid(b530d42815b268e4491e581c4dd909e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103944ee784d1a21e16352b84861e010') in 0.013697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CR/3.png
+  artifactKey: Guid(54c8716770227ed418a5005f7938ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CR/3.png using Guid(54c8716770227ed418a5005f7938ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8884a51613917b91adc729d29c8534c') in 0.009407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BG/3.png
+  artifactKey: Guid(67854b713262041438e89c06c3a0a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BG/3.png using Guid(67854b713262041438e89c06c3a0a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323714c0d9aa73a356ee725d8602fd16') in 0.013666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-1/3.png
+  artifactKey: Guid(a77e84488c2c6d84dba72fa23186d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/3.png using Guid(a77e84488c2c6d84dba72fa23186d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8173cc74c11e39e939d7c241f4fdac') in 0.012810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EA/3.png
+  artifactKey: Guid(e51da2d1de1b1044e9359ead5d246c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EA/3.png using Guid(e51da2d1de1b1044e9359ead5d246c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6200aaa9cd9ac1274cb0c3bd5d2664a1') in 0.010604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.404992 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HS/3.png
+  artifactKey: Guid(b92a242d8ecec8b49891ff6b2d774810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HS/3.png using Guid(b92a242d8ecec8b49891ff6b2d774810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f09501284c6a3a4c0d94153557518') in 0.076453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HE/3.png
+  artifactKey: Guid(505d225bd4c0c0e438589aa3d9dd70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HE/3.png using Guid(505d225bd4c0c0e438589aa3d9dd70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3291482bef112c96d005a549f5d5f8') in 0.057843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BA/3.png
+  artifactKey: Guid(ce726a6d81c2b5d4fa5c46d797b52e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BA/3.png using Guid(ce726a6d81c2b5d4fa5c46d797b52e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b0320b0fd032934b1242698bf6807f') in 0.050622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/3.png
+  artifactKey: Guid(0802f0be162ee7247b505240d3954ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/3.png using Guid(0802f0be162ee7247b505240d3954ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81083630908970574a4e3a8dbba62399') in 0.051762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MA/3.png
+  artifactKey: Guid(b22780cbf41aaeb4980cc9a4e7260090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MA/3.png using Guid(b22780cbf41aaeb4980cc9a4e7260090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47888b1af00662022c58a564d4a23086') in 0.060322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LM/3.png
+  artifactKey: Guid(7c5334bc18075e1408d23daca62119cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LM/3.png using Guid(7c5334bc18075e1408d23daca62119cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4b2f7f31f0112494e289046512a616') in 0.049704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BB/3.png
+  artifactKey: Guid(db39437d7e91d34429314525fe16221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BB/3.png using Guid(db39437d7e91d34429314525fe16221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555221c09c8420f816257e0850e9d7fd') in 0.056615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EL/3.png
+  artifactKey: Guid(8a127008a9cbeb744a9ebdb9f145cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EL/3.png using Guid(8a127008a9cbeb744a9ebdb9f145cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b62884e19fe2408c5281f781a0927') in 0.059014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CR/3.png
+  artifactKey: Guid(54c8716770227ed418a5005f7938ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CR/3.png using Guid(54c8716770227ed418a5005f7938ceab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52a67540dcf9ebce2d1c65925e0e666') in 0.050023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BG/3.png
+  artifactKey: Guid(67854b713262041438e89c06c3a0a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BG/3.png using Guid(67854b713262041438e89c06c3a0a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e4c093c8a55471c16e5136e1b87653') in 0.080689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-1/3.png
+  artifactKey: Guid(a77e84488c2c6d84dba72fa23186d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/3.png using Guid(a77e84488c2c6d84dba72fa23186d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd50737039fd868ca48e90879dd2a070') in 0.062725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.740580 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/4.png
+  artifactKey: Guid(5e76d149ce8511e4f8253133106131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/4.png using Guid(5e76d149ce8511e4f8253133106131c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09191179c9fd95bd1af4b69d1a0f8e4') in 0.014764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/4.png
+  artifactKey: Guid(cf29867e0d380cc4f9cf7867fc919e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/4.png using Guid(cf29867e0d380cc4f9cf7867fc919e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36643865a98601a7b632091af9009ce') in 0.016860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/4.png
+  artifactKey: Guid(922a254857e90a9478d8ba3bbaf1a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/4.png using Guid(922a254857e90a9478d8ba3bbaf1a6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a63f2dde48e57b33218ace2ee81416') in 0.013529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/4.png
+  artifactKey: Guid(7006c74268af19d43b10967bb93bbd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/4.png using Guid(7006c74268af19d43b10967bb93bbd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0772cba1b3fd8c2a328f0a3cd87b78') in 0.010473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LM/4.png
+  artifactKey: Guid(34745cb2cf878c84ab0241016da67e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LM/4.png using Guid(34745cb2cf878c84ab0241016da67e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17869cf47eb5d9952f3db7e5e464cd41') in 0.012931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SG/4.png
+  artifactKey: Guid(05bc48e9a129b3e45b41976d1652ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SG/4.png using Guid(05bc48e9a129b3e45b41976d1652ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4057def8583727148ac9d9209b17373') in 0.011437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-4/FO-4.png
+  artifactKey: Guid(7ca5f7feb69f11541a4f756400a73c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-4/FO-4.png using Guid(7ca5f7feb69f11541a4f756400a73c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c2dcfd2466645c3d92e0dd7725e8cf') in 0.013671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-2/4.png
+  artifactKey: Guid(10955673b38fb9e4888e2fa68f429a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-2/4.png using Guid(10955673b38fb9e4888e2fa68f429a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ad5ea4d58fc6fd2a21d9ddfaa5d76a') in 0.009565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/4.png
+  artifactKey: Guid(1f60ae90e0c029e4db9e7631fbda10e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/4.png using Guid(1f60ae90e0c029e4db9e7631fbda10e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9df85b58118a2ee936df98d720d636') in 0.012007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EL/4.png
+  artifactKey: Guid(f10a56fd598489545b5cf3c635847276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EL/4.png using Guid(f10a56fd598489545b5cf3c635847276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8625eb4d2017317ba806b528c8b03be') in 0.012932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/OG/4.png
+  artifactKey: Guid(9925fe78b6e360f49945d73fab57766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/OG/4.png using Guid(9925fe78b6e360f49945d73fab57766d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220c3134ed2993fdeb6db9b577503e9d') in 0.011031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-1/4.png
+  artifactKey: Guid(1701d5b20786b794b9281aa4eff2dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-1/4.png using Guid(1701d5b20786b794b9281aa4eff2dc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cf5f946e8bf729b9dbda80024788cd') in 0.011776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.383684 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-4/4.png
+  artifactKey: Guid(a0d0028dfb130654f9761a3ec6dcde44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-4/4.png using Guid(a0d0028dfb130654f9761a3ec6dcde44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6d6cb30cbaaff5f074017bd3882399') in 0.060566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/4.png
+  artifactKey: Guid(cf29867e0d380cc4f9cf7867fc919e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/4.png using Guid(cf29867e0d380cc4f9cf7867fc919e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24757e9c069f771695e7258ced9fe0cc') in 0.064341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MA/4.png
+  artifactKey: Guid(e3dc63b83164f38408a88caa8546533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MA/4.png using Guid(e3dc63b83164f38408a88caa8546533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1218a53124d3fc6ae7a3705cc126ffde') in 0.055447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BG/4.png
+  artifactKey: Guid(0dadb5881ff8f4443b0dca72658b0909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BG/4.png using Guid(0dadb5881ff8f4443b0dca72658b0909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a94d9f7429d45e0cd17403233ef014') in 0.065728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/4.png
+  artifactKey: Guid(f44d6b4705d9e124db3822f67d8f8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/4.png using Guid(f44d6b4705d9e124db3822f67d8f8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6461b46633d655499c6164c3031a4023') in 0.050581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SG/4.png
+  artifactKey: Guid(05bc48e9a129b3e45b41976d1652ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SG/4.png using Guid(05bc48e9a129b3e45b41976d1652ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd296e22498181f144f77519895148') in 0.063455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-2/4.png
+  artifactKey: Guid(10955673b38fb9e4888e2fa68f429a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-2/4.png using Guid(10955673b38fb9e4888e2fa68f429a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a899927aea351dddbdffdca38d33499') in 0.057633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/4.png
+  artifactKey: Guid(1f60ae90e0c029e4db9e7631fbda10e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/4.png using Guid(1f60ae90e0c029e4db9e7631fbda10e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686fecd5aa764b3050299a8f8220ba1') in 0.053865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EL/4.png
+  artifactKey: Guid(f10a56fd598489545b5cf3c635847276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EL/4.png using Guid(f10a56fd598489545b5cf3c635847276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bca96c12c46954950ac40ced2b8c9b3') in 0.049047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/4.png
+  artifactKey: Guid(9f46e37963db56041afb98024311f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/4.png using Guid(9f46e37963db56041afb98024311f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff7584dd6e175ed4fa91327b057b93e') in 0.057780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.926039 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/5.png
+  artifactKey: Guid(479b2175ff5b6c14998c0541363b9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/5.png using Guid(479b2175ff5b6c14998c0541363b9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2bc683e3996d0d75c04fdb4d5383a4') in 0.019652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LP/5.png
+  artifactKey: Guid(5e321be7bff4e6b43ab272db9bb5e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LP/5.png using Guid(5e321be7bff4e6b43ab272db9bb5e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e6fb17f9b93d1ea3b761590d79d9d6') in 0.016624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/VALK/5.png
+  artifactKey: Guid(70f083b18a74d9b4b9993e3e766802d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/VALK/5.png using Guid(70f083b18a74d9b4b9993e3e766802d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd287fbc66a022fed9314721c85df5e8c') in 0.017453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-1/5.png
+  artifactKey: Guid(1b5453a176ed4b4409994367f5357116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-1/5.png using Guid(1b5453a176ed4b4409994367f5357116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffa10560405b142cd2f19c97880a3d6') in 0.017292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EA/5.png
+  artifactKey: Guid(386fe454bdf73494ab93e0c2cc004795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EA/5.png using Guid(386fe454bdf73494ab93e0c2cc004795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2ec3c0e73a8df5e6491d55a81b83f0') in 0.015051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/5.png
+  artifactKey: Guid(a0aa3b1d931b50c409ca8f70b8b4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/5.png using Guid(a0aa3b1d931b50c409ca8f70b8b4107f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1621ef777d0e079a83b6d6c5ef89fe') in 0.010217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-3/5.png
+  artifactKey: Guid(4b3d6d6de5656f944beb95bbcb7ffb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-3/5.png using Guid(4b3d6d6de5656f944beb95bbcb7ffb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6344c99e18101ef230d2a2937879dc29') in 0.012743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/5.png
+  artifactKey: Guid(59742fe59d48aad4faf0626886576caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/5.png using Guid(59742fe59d48aad4faf0626886576caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4c47892565880f629d289200a4a7e8') in 0.010107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BB/5.png
+  artifactKey: Guid(9fac5d4bd66b47946ba87eb16e748ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BB/5.png using Guid(9fac5d4bd66b47946ba87eb16e748ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f0a4cfe0c86668ceab68ec03f1aff8') in 0.012785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/5.png
+  artifactKey: Guid(b18a5e06b828e854c85292fec0089e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/5.png using Guid(b18a5e06b828e854c85292fec0089e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f471a751116b9157d670146ae28f1c') in 0.009072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MC/5.png
+  artifactKey: Guid(23921f1bf430a8447a04e0068490a4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MC/5.png using Guid(23921f1bf430a8447a04e0068490a4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77bad82e84d1e3a15aeb9eeea007673') in 0.012009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.539420 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-4/5.png
+  artifactKey: Guid(64b13e5eb004b544180df4eb5d959c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-4/5.png using Guid(64b13e5eb004b544180df4eb5d959c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e9377d664fe3df0c194732f0ed05f2') in 0.066391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EN/5.png
+  artifactKey: Guid(67d09e078e5e95645ad364ea45d8c0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EN/5.png using Guid(67d09e078e5e95645ad364ea45d8c0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48325bb0f6e52b64d4a4dace0c2b7aa5') in 0.066961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/VALK/5.png
+  artifactKey: Guid(70f083b18a74d9b4b9993e3e766802d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/VALK/5.png using Guid(70f083b18a74d9b4b9993e3e766802d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19801506721fcf4403572513cb60f859') in 0.059663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HL/5.png
+  artifactKey: Guid(6c53a7a5f08f23d46b1f50eeda095a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HL/5.png using Guid(6c53a7a5f08f23d46b1f50eeda095a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a3d3a844a19f1fadead7fa18e5c014') in 0.069839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SG/5.png
+  artifactKey: Guid(9e9b8bcd4265ab04c9b5475c64964278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SG/5.png using Guid(9e9b8bcd4265ab04c9b5475c64964278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24317ab173ae610b7b11eeeb2ab451b0') in 0.056586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LM/5.png
+  artifactKey: Guid(a06ba03b73db8f9419058c2f6182457d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LM/5.png using Guid(a06ba03b73db8f9419058c2f6182457d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071f626b0ff53cc7e3b1e7ffdfb0e383') in 0.054593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/5.png
+  artifactKey: Guid(a7d4bd8331a21904791248eff8ac614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/5.png using Guid(a7d4bd8331a21904791248eff8ac614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf1b3f7bcbb2233fef79c4119c1b359') in 0.054479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/AS-2/5.png
+  artifactKey: Guid(59742fe59d48aad4faf0626886576caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/AS-2/5.png using Guid(59742fe59d48aad4faf0626886576caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01d8de7d746cc1f62448184aad414ab') in 0.057592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BB/5.png
+  artifactKey: Guid(9fac5d4bd66b47946ba87eb16e748ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BB/5.png using Guid(9fac5d4bd66b47946ba87eb16e748ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd098aaf51f087644b114046d71b78c59') in 0.058089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/5.png
+  artifactKey: Guid(b18a5e06b828e854c85292fec0089e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/5.png using Guid(b18a5e06b828e854c85292fec0089e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bd2a67a4608d567c7647d52556757b') in 0.052723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HE/5.png
+  artifactKey: Guid(1d8d6b01c7b20e14cb7a33793482249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HE/5.png using Guid(1d8d6b01c7b20e14cb7a33793482249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb53159170348912df0647f4d4645e7f') in 0.057406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610022 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/GC/6.png
+  artifactKey: Guid(92a8ac8d4a2234149958bf93945b4535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/GC/6.png using Guid(92a8ac8d4a2234149958bf93945b4535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933a00f1effeaf6e7228f40a8c6945c2') in 0.020804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HS/6.png
+  artifactKey: Guid(446f223c12e35644080b00be38c98c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HS/6.png using Guid(446f223c12e35644080b00be38c98c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd5f2ba1e4015f066706bc41443156e') in 0.008219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/6.png
+  artifactKey: Guid(80500e95538991040902990ab335669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/6.png using Guid(80500e95538991040902990ab335669b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288996b977dfc7f45b1a167aa71aae66') in 0.009504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MA/6.png
+  artifactKey: Guid(673b5946582f5ba4189623defd7f1c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MA/6.png using Guid(673b5946582f5ba4189623defd7f1c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff39ecda55efe56c68a74158d83e8d69') in 0.012834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/6.png
+  artifactKey: Guid(9e4e965130c6ef54a91853938e977a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/6.png using Guid(9e4e965130c6ef54a91853938e977a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6276ea9dc6b50d90bd40195c486060') in 0.009162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CHA-2/6.png
+  artifactKey: Guid(f017cd6a270d55d4e98ef1aca17c8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CHA-2/6.png using Guid(f017cd6a270d55d4e98ef1aca17c8420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804b128384994053b9276f2067774f81') in 0.015125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BB/6.png
+  artifactKey: Guid(073bdcd479c4a1148b5a817296e44d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BB/6.png using Guid(073bdcd479c4a1148b5a817296e44d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcbddf801fb5933f488c18f5f85726c') in 0.010376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BA/6.png
+  artifactKey: Guid(7267ab8d59a8e8049bf92b2abb846819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BA/6.png using Guid(7267ab8d59a8e8049bf92b2abb846819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0223afcc0a241a752b2c2369507509bf') in 0.012595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/ENA/6.png
+  artifactKey: Guid(2023be8c2ba293149870de0901087b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/ENA/6.png using Guid(2023be8c2ba293149870de0901087b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023507dfebff613b6043a821f08cd1cd') in 0.013518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-1/6.png
+  artifactKey: Guid(619a3f783699d804a8d2d4f03740c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-1/6.png using Guid(619a3f783699d804a8d2d4f03740c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5785b58feb7afee996f9b54608ae3209') in 0.009588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EA/6.png
+  artifactKey: Guid(274ab8d5f3b0d57438fca0df8d1faf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EA/6.png using Guid(274ab8d5f3b0d57438fca0df8d1faf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9157853917376262f11a85451a2b551') in 0.017994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.304955 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-4/6.png
+  artifactKey: Guid(f0bef4d3c7893f34bb86348a25d82896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-4/6.png using Guid(f0bef4d3c7893f34bb86348a25d82896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb6def42947155f9696558ffd164eb2') in 0.067881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MC/6.png
+  artifactKey: Guid(4325b2187d2c0b54dbe9eb1aaec36ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MC/6.png using Guid(4325b2187d2c0b54dbe9eb1aaec36ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740d6c80305db37b102fc63d1e8ad4f') in 0.069141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/SR/6.png
+  artifactKey: Guid(cb04d87980bfe0b47a7df0b4256b7471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/SR/6.png using Guid(cb04d87980bfe0b47a7df0b4256b7471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e273051b9f7aca4817c35e25c4a76f9') in 0.065646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/MA/6.png
+  artifactKey: Guid(673b5946582f5ba4189623defd7f1c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/MA/6.png using Guid(673b5946582f5ba4189623defd7f1c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fe795a7661e8fbda915424ce77bf1e') in 0.056513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/LA/6.png
+  artifactKey: Guid(9e4e965130c6ef54a91853938e977a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/LA/6.png using Guid(9e4e965130c6ef54a91853938e977a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7702d96f0562b206ebd3823c177ddf') in 0.054019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/6.png
+  artifactKey: Guid(146a9e7b3106a9f43a303610ded64ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/6.png using Guid(146a9e7b3106a9f43a303610ded64ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd610f284a34adbe5151fae7a2f6853e7') in 0.059467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EN/6.png
+  artifactKey: Guid(0e7f23f4284ecd14a9fa574c8ab18c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EN/6.png using Guid(0e7f23f4284ecd14a9fa574c8ab18c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0e639f8bfa5737bacc26da37e84bdb') in 0.051117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/BA/6.png
+  artifactKey: Guid(7267ab8d59a8e8049bf92b2abb846819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/BA/6.png using Guid(7267ab8d59a8e8049bf92b2abb846819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1081ca33fa0e2bca2576392b07c4083') in 0.056232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/CZ/6.png
+  artifactKey: Guid(c80aefc48f9903e46a950aeeac82b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/CZ/6.png using Guid(c80aefc48f9903e46a950aeeac82b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f1918832d8444de020ee196b3eded3') in 0.063407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/NO-1/6.png
+  artifactKey: Guid(619a3f783699d804a8d2d4f03740c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/NO-1/6.png using Guid(619a3f783699d804a8d2d4f03740c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d4d6df3400d9374ad5361336a0751f') in 0.053694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/VALK/6.png
+  artifactKey: Guid(ff125ace472baa949af7998089a94344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/VALK/6.png using Guid(ff125ace472baa949af7998089a94344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91941c8337a8c13e3819048a37501ae6') in 0.050969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.449343 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HS/1.png
+  artifactKey: Guid(7fba69d429966ce4a90aebcda2b8a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HS/1.png using Guid(7fba69d429966ce4a90aebcda2b8a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49dd792c1fa96a6dd36ce71fc16a18b') in 0.067478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/HE/1.png
+  artifactKey: Guid(f23fae49be7932a42a1bae92768946a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/HE/1.png using Guid(f23fae49be7932a42a1bae92768946a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed2301c143dd6ee3f4a7d1ec79f1806') in 0.054478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.424885 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/FO-1.png
+  artifactKey: Guid(e39385fc1cf178142952ea97caf5f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/FO-1.png using Guid(e39385fc1cf178142952ea97caf5f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce90bdb5eb493e3eaec6ce082d824e24') in 0.022581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.117028 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-1/FO-1.png
+  artifactKey: Guid(e39385fc1cf178142952ea97caf5f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-1/FO-1.png using Guid(e39385fc1cf178142952ea97caf5f646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800749abace39ce6b53480a7b2685c18') in 0.312704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.986313 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/EA/2.png
+  artifactKey: Guid(afca1938506ac41479d671e57d86b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/EA/2.png using Guid(afca1938506ac41479d671e57d86b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb5f5b6f35f66147663a5fa5762535') in 0.076998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/DarkSecrets/Cards/FO-2/FO-2.png
+  artifactKey: Guid(bfb55687fc58eb449ab948d4e3288784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DarkSecrets/Cards/FO-2/FO-2.png using Guid(bfb55687fc58eb449ab948d4e3288784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc98cdba7503133afc3442a2c24c9c1b') in 0.267455 seconds 
