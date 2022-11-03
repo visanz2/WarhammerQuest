@@ -149,7 +149,7 @@ public class CityMenu : MonoBehaviour
 
         GameObject hexagonCell = GameObject.Find(hexagonID);
         int player = hexagonCell.GetComponent<City>().GetPlayer1();
-        PersistentVariables.Instance.ShowingDarkSecret(player);
+        PersistentVariables.Instance.ShowingDarkSecret(player, false);
 
         readingDarkSecret = true;
         this.gameObject.SetActive(false);
@@ -162,7 +162,7 @@ public class CityMenu : MonoBehaviour
 
         GameObject hexagonCell = GameObject.Find(hexagonID);
         int player = hexagonCell.GetComponent<City>().GetPlayer2();
-        PersistentVariables.Instance.ShowingDarkSecret(player);
+        PersistentVariables.Instance.ShowingDarkSecret(player, false);
 
         readingDarkSecret = true;
         this.gameObject.SetActive(false);
@@ -174,7 +174,7 @@ public class CityMenu : MonoBehaviour
 
         GameObject hexagonCell = GameObject.Find(hexagonID);
         int player = hexagonCell.GetComponent<City>().GetPlayer3();
-        PersistentVariables.Instance.ShowingDarkSecret(player);
+        PersistentVariables.Instance.ShowingDarkSecret(player, false);
 
         readingDarkSecret = true;
         this.gameObject.SetActive(false);

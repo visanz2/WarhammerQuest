@@ -5,7 +5,8 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+//using UnityEngine.UIElements;
+//using Button = UnityEngine.UI.Button;
 
 public class MainMenuMap : MonoBehaviour
 {
@@ -30,16 +31,39 @@ public class MainMenuMap : MonoBehaviour
     [SerializeField] private TMP_Dropdown dropdown_Seaport;
     [SerializeField] private TMP_Dropdown dropdown_Villain;
 
-    [Header("Instrructions")]
+    [Header("Instructions")]
     [SerializeField] private TestImageLibrary instructions;
     [SerializeField] private GameObject _photoViewerGameObject = null;
     [SerializeField] private PhotoViewer.Scripts.PhotoViewer _photoViewer = null;
+
+    [Header("Dark Secrets Menu")]
+    [SerializeField] private TextMeshProUGUI textPlayer1;
+    [SerializeField] private TextMeshProUGUI textPlayer2;
+    [SerializeField] private TextMeshProUGUI textPlayer3;
+    [SerializeField] private TextMeshProUGUI textPlayer4;
+    [SerializeField] private TextMeshProUGUI textPlayer5;
+    [SerializeField] private TextMeshProUGUI textPlayer6;
+    [SerializeField] private Button buttonPlayer1;
+    [SerializeField] private Button buttonPlayer2;
+    [SerializeField] private Button buttonPlayer3;
+    [SerializeField] private Button buttonPlayer4;
+    [SerializeField] private Button buttonPlayer5;
+    [SerializeField] private Button buttonPlayer6;
+    [SerializeField] private GameObject panelPlayer1;
+    [SerializeField] private GameObject panelPlayer2;
+    [SerializeField] private GameObject panelPlayer3;
+    [SerializeField] private GameObject panelPlayer4;
+    [SerializeField] private GameObject panelPlayer5;
+    [SerializeField] private GameObject panelPlayer6;
+
 
     private List<string> optionsCity = new List<string>();
     private List<string> optionsTown = new List<string>();
     private List<string> optionsVillage = new List<string>();
     private List<string> optionsSeaport = new List<string>();
     private List<string> optionsVillain = new List<string>();
+
+
 
     public void Awake()
     {
@@ -269,4 +293,28 @@ public class MainMenuMap : MonoBehaviour
         _photoViewer.Show();
         _photoViewer.ShowImage(0);
     }
+
+    public void OnClickDarkSecretRecord()
+    {
+        int totalPlayers = DataPersistenceManager.Instance.GetTotalDarkSecretPlayers();
+
+        List<TextMeshProUGUI> listTextPlayers = new List<TextMeshProUGUI> { textPlayer1, textPlayer2, textPlayer3, textPlayer4, textPlayer5, textPlayer6 };
+        List<Button> listButtonPlayers = new List<Button>() { buttonPlayer1, buttonPlayer2, buttonPlayer3, buttonPlayer4, buttonPlayer5, buttonPlayer6 };
+        List<GameObject> listPanelPlayers = new List<GameObject> { panelPlayer1, panelPlayer2, panelPlayer3, panelPlayer4, panelPlayer5, panelPlayer6 };
+
+        for (int i = 0; i < totalPlayers; i++)
+        {
+            int playerDarkSecret = DataPersistenceManager.Instance.GetPlayerDarkSecret(i);
+            listTextPlayers[i].text = DataPersistenceManager.Instance.list_AventurerType[playerDarkSecret];
+            Sprite sprite = Resources.Load<Sprite>("DarkSecrets/Icons/" + DataPersistenceManager.Instance.list_AventurerTypeIcon[playerDarkSecret]);
+            listButtonPlayers[i].GetComponent<Image>().sprite = sprite;
+            listPanelPlayers[i].SetActive(true);
+        }
+    }
+
+    public void OnClickDarkSecretPlayer(int player)
+    {
+        PersistentVariables.Instance.ShowingDarkSecret(player, true);
+    }
+
 }

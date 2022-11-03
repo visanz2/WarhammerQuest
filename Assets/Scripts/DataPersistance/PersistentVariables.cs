@@ -727,7 +727,7 @@ public class PersistentVariables : MonoBehaviour, IDataPersistence
     }
 
 
-    public void ShowingDarkSecret(int player)
+    public void ShowingDarkSecret(int player, bool checkingRecord)
     {
         renderCardImage.rectTransform.sizeDelta = new Vector2(489, 688);
         button_ReturnToStack.SetActive(false);
@@ -737,7 +737,17 @@ public class PersistentVariables : MonoBehaviour, IDataPersistence
         renderCardImage.rectTransform.localScale = new Vector3(1f, 1f, 1);
         
         int playerDarkSecret = DataPersistenceManager.Instance.GetPlayerDarkSecret(player);
-        int darkSecretPosition = DataPersistenceManager.Instance.GetPlayerCityDarkSecret(player) + 1;
+        int darkSecretPosition = 0;
+
+        if (checkingRecord == true)
+        {
+            darkSecretPosition = DataPersistenceManager.Instance.GetPlayerCityDarkSecret(player) + 1;
+        }
+        else
+        {
+            darkSecretPosition = DataPersistenceManager.Instance.GetPlayerCityDarkSecret(player) + 2;
+        }
+           
 
         string darkSecretIconName = DataPersistenceManager.Instance.list_AventurerTypeIcon[playerDarkSecret];
         

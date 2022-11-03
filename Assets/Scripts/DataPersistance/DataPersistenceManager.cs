@@ -248,6 +248,11 @@ public class DataPersistenceManager : MonoBehaviour
         return this.newCampaing;
     }
 
+    public int GetTotalDarkSecretPlayers()
+    {
+        return list_playersDarkSecrets.Count;
+    }
+
     public void AddPlayerDarkSecret(int position)
     {
         list_playersDarkSecrets.Add(position);
